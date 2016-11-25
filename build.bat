@@ -21,7 +21,7 @@ sed -i "s/{src_dir}/"%src_dir%"/g" next.args
 java -jar ../mkgmap-r3701/mkgmap.jar --family-id=%family_id% %src_dir%\conf\typfile.txt
 ::../srtm2osm.exe -bounds1 41.1330000 22.3410000 44.2650000 28.6690000 -cat 400 100 -large -corrxy 0.0005 0.0006 -step 10 -o %srtm_file%
 java -Xmx1500m -XX:MaxHeapSize=1024m -jar ../splitter-r439/splitter.jar --max-nodes=1600000 --max-areas=512 --mapid=%mapid%  --keep-complete=false --description="%description%" --mixed ../Srtm2Osm/%srtm_file% ../download/%download_name%
-java -Xmx1024m -jar ../mkgmap-r3701/mkgmap.jar --style-file=%src_dir%/styles/mystyle -c next.args -c template.args %family_id%*.osm.pbf typfile.typ
+java -Xmx1024m -jar ../mkgmap-r3701/mkgmap.jar --style-file=%src_dir%/styles/mystyle -c next.args -c template.args --gmapsupp %family_id%*.osm.pbf typfile.typ
 
 sed -i "s/OSM map/%instalation_name%/g" osmmap.nsi
 sed -i "s/xtypfile.typ/typfile.typ/g" osmmap.nsi
