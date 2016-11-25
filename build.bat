@@ -27,4 +27,7 @@ sed -i "s/OSM map/%instalation_name%/g" osmmap.nsi
 sed -i "s/xtypfile.typ/typfile.typ/g" osmmap.nsi
 makensis osmmap.nsi
 
+set instalation_name=%instalation_name: =%
+ren gmapsupp.img %instalation_name%.img
+
 cd %src_dir%

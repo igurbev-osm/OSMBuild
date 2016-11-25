@@ -1,7 +1,7 @@
 ﻿; typfile.typ
-; Longueur: 39858 octets
-; Fichier TYP compilé     25-11-2016     14:39:09
-; Décompilé le 25-Nov-16 à 15:55:33
+; Longueur: 37482 octets
+; Fichier TYP compilé     25-11-2016     16:14:22
+; Décompilé le 25-Nov-16 à 16:14:22
 
 [_id]
 ProductCode=1
@@ -7025,7 +7025,10 @@ Type=0x02f
 SubType=0x04
 ;GRMN_TYPE: Business - Services/AIRPORT/Airport/Non NT
 String1=0x22,Месност
-ExtendedLabels=N
+ExtendedLabels=Y
+FontStyle=NormalFont
+CustomColor=Day
+DaycustomColor:#101010
 DayXpm="1 1 1 1"   Colormode=32
 "!	c #000000"  alpha=15
 "!"

@@ -225,7 +225,7 @@ man_made=tower|man_made=mast|landmark=chimney [0x6411 resolution 23]
 # Edge 705 displays 0x650a,0x6511,0x6512,0x6513,0x6603,0x6614 as hollow white circles, no menu
 natural=cave_entrance [0x6601 resolution 23]
 natural=cliff [0x6607 resolution 23]
-natural=peak {name '${name|def:}${ele|height:m=>ft|def:}' } [0x011b resolution 21]
+natural=peak {name '${name|def:}${ele|height:m=>ft|def:}' } [0x6616 resolution 21]
 natural=rock [0x6614 resolution 23]
 natural=volcano [0x2c0c resolution 23]
 
