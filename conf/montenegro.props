@@ -1,0 +1,10 @@
+download_url=http://download.geofabrik.de/europe/montenegro-latest.osm.pbf
+download_name=montenegro-latest.osm.pbf
+srtm_file=chernagora.srtm10.osm
+mapid=35490001
+description=OSM Montenegro igurbev
+family_id=3549
+output_dir=montenegro
+instalation_name=OSM Montenegro
+country-name=Montenegro
+country-abbr=MNE

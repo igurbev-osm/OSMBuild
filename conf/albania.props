@@ -1,0 +1,10 @@
+download_url=http://download.geofabrik.de/europe/albania-latest.osm.pbf
+download_name=albania-latest.osm.pbf
+srtm_file=albania.srtm10.osm
+mapid=95490001
+description=OSM Albania igurbev
+family_id=9549
+output_dir=albania
+instalation_name=OSM Albania
+country-name=Albania
+country-abbr=AL

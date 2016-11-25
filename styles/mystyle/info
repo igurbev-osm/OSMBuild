@@ -1,0 +1,8 @@
+summary: Elevation contour lines in feet
+
+version=1.0
+
+# A longer description of the style.
+description {
+	Specific export style
+}

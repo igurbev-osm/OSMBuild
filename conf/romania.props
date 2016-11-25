@@ -1,0 +1,10 @@
+download_url=http://download.geofabrik.de/europe/romania-latest.osm.pbf
+download_name=romania-latest.osm.pbf
+srtm_file=romania.srtm10.osm
+mapid=15490001
+description=OSM Romania igurbev
+family_id=1549
+output_dir=romania
+instalation_name=OSM Romania
+country-name=Romania
+country-abbr=RO

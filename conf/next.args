@@ -1,0 +1,16 @@
+family-id:{family_id}
+product-id:{family_id}
+mapname=osmmap
+description: {instalation_name} igurbev
+country-name: {country-name}
+country-abbr: {country-abbr}
+series-name: {instalation_name} igurbev
+ignore-osm-bounds
+tdbfile
+index
+nsis
+net
+route
+remove-short-arcs
+unicode
+style-file:../styles/mystyle

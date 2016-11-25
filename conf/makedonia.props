@@ -1,0 +1,10 @@
+download_url=http://download.geofabrik.de/europe/macedonia-latest.osm.pbf
+download_name=macedonia-latest.osm.pbf
+srtm_file=makedonia.srtm10.osm
+mapid=25490001
+description=OSM Makedonia igurbev
+family_id=2549
+output_dir=macedonia
+instalation_name=OSM Macedonia
+country-name=Macadonia
+country-abbr=MK
