@@ -1,8 +1,11 @@
-﻿
+﻿; typfile.typ
+; Longueur: 39858 octets
+; Fichier TYP compilé     24-11-2016     20:31:48
+; Décompilé le 25-Nov-16 à 13:26:22
 
 [_id]
 ProductCode=1
-FID=7549
+FID=6549
 CodePage=65001
  [End]
 
@@ -997,7 +1000,9 @@ Type=0x50
 ;GRMN_TYPE: Surface Cover Areas/WOODS/Wooded or forested area/Non NT
 String1=0x04,Forest
 String2=0x22,Гора
-ExtendedLabels=N
+ExtendedLabels=Y
+FontStyle=NoLabel (invisible)
+CustomColor=No
 Xpm="32 32 2 1"
 "! c #396520"
 "# c #ADD19E"
@@ -1341,7 +1346,7 @@ Xpm="0 0 2 0"
 "1 c #FFCAB4"
 "2 c #000000"
 String1=0x04,Other road
-String2=0x22,highway
+String2=0x22,highway=service
 ExtendedLabels=N
 [end]
 
@@ -6896,7 +6901,7 @@ DayXpm="16 16 19 2"   Colormode=16
 Type=0x02b
 SubType=0x02
 ;GRMN_TYPE: Business - Lodging/BED_AND_BREAKFAST/Bed and breakfast inn/Non NT
-String1=0x02,Jugendherberge
+String1=0x22,Хостел
 ExtendedLabels=N
 DayXpm="18 16 3 1"   Colormode=16
 "!	c #FFFFFF"
@@ -6926,7 +6931,7 @@ DayXpm="18 16 3 1"   Colormode=16
 Type=0x02b
 SubType=0x03
 ;GRMN_TYPE: Business - Lodging/CAMPGROUND/Campground/Non NT
-String1=0x02,Campingplatz
+String1=0x22,Къмпинг
 ExtendedLabels=N
 DayXpm="16 16 3 1"   Colormode=16
 "!	c #FFFFFF"
@@ -6980,33 +6985,6 @@ DayXpm="16 16 4 1"   Colormode=16
 "   !!!!  !!!!   "
 "                "
 ;1234567890123456
-[end]
-
-
-[_point]
-Type=0x02c
-SubType=0x01
-;GRMN_TYPE: Business - Attractions/THEME_PARK/Amusement or theme park, i.e. Disneyland/Non NT
-String1=0x02,Freizeitpark
-ExtendedLabels=N
-DayXpm="1 1 2 1"   Colormode=0
-"!	c #FFFFFF"
-"#	c #000000"
-"#"
-;1
-[end]
-
-
-[_point]
-Type=0x02c
-SubType=0x03
-;GRMN_TYPE: Business - Attractions/LIBRARY/Library/Non NT
-String1=0x02,Bibliothek/Bücherei
-ExtendedLabels=N
-DayXpm="1 1 1 1"   Colormode=0
-"!	c #000000"
-"!"
-;1
 [end]
 
 
@@ -7769,7 +7747,7 @@ DayXpm="16 15 3 1"   Colormode=16
 Type=0x02f
 SubType=0x04
 ;GRMN_TYPE: Business - Services/AIRPORT/Airport/Non NT
-String1=0x02,Flugplatz/Flughafen
+String1=0x22,Месност
 ExtendedLabels=N
 DayXpm="1 1 1 1"   Colormode=32
 "!	c #000000"  alpha=15
@@ -7812,7 +7790,7 @@ DayXpm="18 16 3 1"   Colormode=16
 Type=0x02f
 SubType=0x06
 ;GRMN_TYPE: Business - Services/BANK/Bank/Non NT
-String1=0x02,Geldautomat
+String1=0x22,Банкомат
 ExtendedLabels=N
 DayXpm="18 18 3 1"   Colormode=16
 "!	c #000000"
@@ -7844,7 +7822,7 @@ DayXpm="18 18 3 1"   Colormode=16
 Type=0x02f
 SubType=0x07
 ;GRMN_TYPE: Business - Services/DEALER/Dealer of manufactured goods/Non NT
-String1=0x02,Briefkasten
+String1=0x22,Пощенска кутия
 ExtendedLabels=N
 DayXpm="16 16 3 1"   Colormode=16
 "!	c #FFFFFF"
@@ -7874,7 +7852,7 @@ DayXpm="16 16 3 1"   Colormode=16
 Type=0x02f
 SubType=0x08
 ;GRMN_TYPE: Business - Services/GND_TRANSPORT/Ground transportation status, i.e. a bus station/Non NT
-String1=0x02,Bahnhof
+String1=0x22,Гара
 ExtendedLabels=N
 DayXpm="12 12 3 1"   Colormode=16
 "!	c #FFFFFF"
@@ -7932,7 +7910,7 @@ DayXpm="16 16 4 1"   Colormode=16
 Type=0x02f
 SubType=0x0b
 ;GRMN_TYPE: Business - Services/PARKING/Parking/Non NT
-String1=0x02,Parkplatz
+String1=0x22,Паркинг
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
@@ -8122,7 +8100,7 @@ DayXpm="16 16 4 1"   Colormode=16
 Type=0x030
 SubType=0x02
 ;GRMN_TYPE: Business - Emergency and Government/HOSPITAL/Hospital/Non NT
-String1=0x02,Krankenhaus
+String1=0x22,Болница
 ExtendedLabels=N
 DayXpm="16 16 4 1"   Colormode=16
 "!	c #FFFFFF"
@@ -8244,7 +8222,7 @@ DayXpm="16 16 4 1"   Colormode=16
 Type=0x031
 SubType=0x00
 ;GRMN_TYPE: //
-String1=0x04,Evtl. Fußweg
+String1=0x22,Пътека
 ExtendedLabels=N
 DayXpm="16 16 59 2"   Colormode=16
 "!!	c #8D8D8D"
@@ -8330,7 +8308,7 @@ DayXpm="16 16 59 2"   Colormode=16
 Type=0x031
 SubType=0x01
 ;GRMN_TYPE: //
-String1=0x04,Evtl. Radweg
+String1=0x22,Велосипедна алея
 ExtendedLabels=N
 DayXpm="16 16 83 2"   Colormode=16
 "!!	c #8D8D8D"
@@ -8440,7 +8418,7 @@ DayXpm="16 16 83 2"   Colormode=16
 Type=0x031
 SubType=0x02
 ;GRMN_TYPE: //
-String1=0x04,Evtl. Reitweg
+String1=0x22,Конска алея
 ExtendedLabels=N
 DayXpm="16 16 64 2"   Colormode=16
 "!!	c #8D8D8D"
@@ -8523,112 +8501,6 @@ DayXpm="16 16 64 2"   Colormode=16
 "    !%!2!1!1!1!1!1!1!1!1!2!%    "
 "      !$!*!=!1!1!1!1!=!*!$      "
 "        !!!#!%!?!?!%!#!!        "
-;1234567890123456
-[end]
-
-
-[_point]
-Type=0x031
-SubType=0x03
-;GRMN_TYPE: //
-String1=0x04,Evtl. Rad-Fußweg
-ExtendedLabels=N
-DayXpm="16 16 79 2"   Colormode=16
-"!!	c #E2E2E2"
-"!#	c #CCCCCC"
-"!%	c #A0A0A0"
-"!?	c #8D8D8D"
-"!$	c #8E8E8E"
-"!*	c #A4A4A4"
-"!=	c #D1D1D1"
-"!1	c #E3E3E3"
-"!2	c #C9C9C9"
-"!3	c #747474"
-"!4	c #323232"
-"!5	c #727272"
-"!6	c #5C5C5C"
-"!7	c #2F2F2F"
-"!8	c #363636"
-"!9	c #7F7F7F"
-"#!	c #D0D0D0"
-"##	c #BBBBBB"
-"#%	c #3E3E3E"
-"#?	c #818181"
-"#$	c #6A6A6A"
-"#*	c #494949"
-"#=	c #CACACA"
-"#1	c #C2C2C2"
-"#2	c #3B3B3B"
-"#3	c #313131"
-"#4	c #DDDDDD"
-"#5	c #B8B8B8"
-"#6	c #393939"
-"#7	c #343434"
-"#8	c #484848"
-"#9	c #CECECE"
-"%!	c #E9E9E9"
-"%#	c #666666"
-"%%	c #E4E4E4"
-"%?	c #9A9A9A"
-"%$	c #7B7B7B"
-"%*	c #E5E5E5"
-"%=	c #B9B9B9"
-"%1	c #535353"
-"%2	c #D3D3D3"
-"%3	c #7D7D7D"
-"%4	c #454545"
-"%5	c #353535"
-"%6	c #939393"
-"%7	c #808080"
-"%8	c #717171"
-"%9	c #676767"
-"?!	c #AEAEAE"
-"?#	c #373737"
-"?%	c #828282"
-"??	c #4B4B4B"
-"?$	c #5B5B5B"
-"?*	c #575757"
-"?=	c #585858"
-"?1	c #5E5E5E"
-"?2	c #686868"
-"?3	c #545454"
-"?4	c #414141"
-"?5	c #424242"
-"?6	c #7A7A7A"
-"?7	c #4F4F4F"
-"?8	c #B6B6B6"
-"?9	c #848484"
-"$!	c #A3A3A3"
-"$#	c #303030"
-"$%	c #777777"
-"$?	c #8A8A8A"
-"$$	c #787878"
-"$*	c #474747"
-"$=	c #5F5F5F"
-"$1	c #757575"
-"$2	c #656565"
-"$3	c #ACACAC"
-"$4	c #7E7E7E"
-"$5	c #404040"
-"$6	c #7C7C7C"
-"$7	c #6C6C6C"
-"  	c none"
-"        !!!#!%!?!$!*!=!1        "
-"      !2!3!4!5!6!7!7!8!9#!      "
-"    ###%!7!7#?#$!7!7!7!7#*#=    "
-"  #1#2!7!7#3#4#5#6#7!7!7!7#8#9  "
-"%!%#!7!7!7!4%%#1%?%$!7!7!7!7!9%*"
-"%=!7!7!7!7%1%2#!%3#4%4!7!7!7%5#!"
-"%6!7!7!7!7!7%7%8%9?!?#!7!7!7!7!*"
-"?%!7!7!7!7!7???$?*?=!7!7!7!7!7!$"
-"?%?1?2?2?2?2%#%#%#%#%#%#%#%#?3!$"
-"%6!7!7!7!7!7!9?4?5?6!7!7!7!7!7!*"
-"%=!7!7!7!7?7?8!3?9$!%5!7!7!7%5#!"
-"%!%#!7$##?  !%%#$%!*$?$$!7!7!9%*"
-"  #1#2$*$=?1$1$2$3%6$4$%!7#8#9  "
-"    ##$5?9?2$6!7#3?9$7?6#*#=    "
-"      !2$1?4!7!7!7$#?4!9#!      "
-"        !!!#!%!?!$!*!=!1        "
 ;1234567890123456
 [end]
 
@@ -8742,36 +8614,6 @@ DayXpm="16 16 18 2"   Colormode=16
 
 [_point]
 Type=0x04a
-SubType=0x01
-;GRMN_TYPE: //
-String1=0x02,Sitzbank
-ExtendedLabels=N
-DayXpm="16 16 3 1"   Colormode=16
-"!	c #FFFFFF"
-"#	c #000000"
-"  	c none"
-"                "
-"                "
-"                "
-"                "
-"                "
-"  !!!!!!!!!!!!  "
-" !############! "
-" !############! "
-"  !!##!!!!##!!  "
-"   !##!  !##!   "
-"   !##!  !##!   "
-"    !!    !!    "
-"                "
-"                "
-"                "
-"                "
-;1234567890123456
-[end]
-
-
-[_point]
-Type=0x04a
 SubType=0x02
 ;GRMN_TYPE: //
 String1=0x22,Пейки
@@ -8804,7 +8646,7 @@ DayXpm="18 16 3 1"   Colormode=16
 Type=0x04c
 SubType=0x00
 ;GRMN_TYPE: Misc. Points of Interest/INFORMATION/Information/Non NT, NT
-String1=0x02,Information
+String1=0x22,Информация
 ExtendedLabels=N
 DayXpm="10 13 3 1"   Colormode=16
 "!	c #1200FF"
@@ -8831,7 +8673,7 @@ DayXpm="10 13 3 1"   Colormode=16
 Type=0x04c
 SubType=0x01
 ;GRMN_TYPE: //
-String1=0x02,Wegweiser
+String1=0x22,Указателни табели
 ExtendedLabels=N
 DayXpm="12 11 3 1"   Colormode=16
 "!	c #FFFFFF"
@@ -8856,7 +8698,7 @@ DayXpm="12 11 3 1"   Colormode=16
 Type=0x04c
 SubType=0x02
 ;GRMN_TYPE: //
-String1=0x02,Karte
+String1=0x22,Карта
 ExtendedLabels=N
 DayXpm="11 10 3 1"   Colormode=16
 "!	c #FFFFFF"
@@ -8880,7 +8722,7 @@ DayXpm="11 10 3 1"   Colormode=16
 Type=0x04d
 SubType=0x01
 ;GRMN_TYPE: //
-String1=0x02,Parkhaus
+String1=0x22,Закрит паркинг
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
@@ -8907,7 +8749,7 @@ DayXpm="12 12 2 1"   Colormode=0
 Type=0x04d
 SubType=0x02
 ;GRMN_TYPE: //
-String1=0x02,Fahrradparkplatz
+String1=0x22,Паркинг за велосипеди
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
@@ -8933,7 +8775,7 @@ DayXpm="10 11 2 1"   Colormode=0
 Type=0x04e
 SubType=0x02
 ;GRMN_TYPE: //
-String1=0x02,Toiletten
+String1=0x22,Тоалетна
 ExtendedLabels=N
 DayXpm="17 16 3 1"   Colormode=16
 "!	c #FFFFFF"
@@ -8963,7 +8805,7 @@ DayXpm="17 16 3 1"   Colormode=16
 Type=0x050
 SubType=0x00
 ;GRMN_TYPE: Misc. Points of Interest/DRINKING_WATER/Drinking water/Non NT, NT
-String1=0x02,Trinkwasser
+String1=0x22,Питейна вода
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
@@ -9019,78 +8861,6 @@ DayXpm="16 16 3 1"   Colormode=16
 " !############! "
 "  !!!!!!!!!!!!  "
 "                "
-;1234567890123456
-[end]
-
-
-[_point]
-Type=0x059
-SubType=0x05
-;GRMN_TYPE: //
-ExtendedLabels=N
-DayXpm="16 16 46 2"   Colormode=0
-"!!	c #FFFFFF"
-"!#	c #313131"
-"!%	c #4E4E4E"
-"!?	c #080808"
-"!$	c #232323"
-"!*	c #FCFCFC"
-"!=	c #070707"
-"!1	c #202020"
-"!2	c #FEFEFE"
-"!3	c #C4C4C4"
-"!4	c #000000"
-"!5	c #3D3D3D"
-"!6	c #CFCFCF"
-"!7	c #E7E7E7"
-"!8	c #5E5E5E"
-"!9	c #010101"
-"#!	c #030303"
-"##	c #686868"
-"#%	c #EBEBEB"
-"#?	c #FAFAFA"
-"#$	c #8D8D8D"
-"#*	c #0E0E0E"
-"#=	c #111111"
-"#1	c #939393"
-"#2	c #FBFBFB"
-"#3	c #BCBCBC"
-"#4	c #2A2A2A"
-"#5	c #373737"
-"#6	c #0A0A0A"
-"#7	c #2C2C2C"
-"#8	c #BDBDBD"
-"#9	c #040404"
-"%!	c #414141"
-"%#	c #E3E3E3"
-"%%	c #1A1A1A"
-"%?	c #4C4C4C"
-"%$	c #9D9D9D"
-"%*	c #090909"
-"%=	c #A7A7A7"
-"%1	c #A3A3A3"
-"%2	c #858585"
-"%3	c #525252"
-"%4	c #9F9F9F"
-"%5	c #A0A0A0"
-"%6	c #535353"
-"%7	c #828282"
-"!!!!!!!!!!!!!!!#!%!!!!!!!!!!!!!!"
-"!!!!!!!!!!!!!!!?!$!!!!!!!!!!!!!!"
-"!!!!!!!!!!!!!!!?!$!!!!!!!!!!!!!!"
-"!!!!!!!!!!!!!!!?!$!!!!!!!!!!!!!!"
-"!!!!!!!!!!!!!!!?!$!!!!!!!!!!!!!!"
-"!!!!!!!!!!!!!*!=!1!2!!!!!!!!!!!!"
-"!!!!!!!!!!!3!#!4!4!5!6!!!!!!!!!!"
-"!!!!!!!7!8!9!4!4!4!4#!###%!!!!!!"
-"!!#?#$#*!4!4!4!4!4!4!4!4#=#1#2!!"
-"#3#4!4!4!4!9#5#6#6#5!9!4!4!4#7#8"
-"!4!4#9%!#1%#!!%%%%!!%##1%!#9!4!9"
-"%?%$#%!!!!!!!!%%%%!!!!!!!!#%%$%?"
-"!!!!!!!!!!!!!!%%%%!!!!!!!!!!!!!!"
-"!!!!!!!!!!!!#8%*%*#8!!!!!!!!!!!!"
-"!!!!!!!!!!%=#!!4!4#!%1!!!!!!!!!!"
-"!!!!!!!!!!%2%3%4%5%6%7!!!!!!!!!!"
 ;1234567890123456
 [end]
 
@@ -10536,27 +10306,4 @@ DayXpm="15 15 3 1"   Colormode=16
 "       !       "
 "       !       "
 ;123456789012345
-[end]
-
-
-[_point]
-Type=0x102
-SubType=0x18
-;GRMN_TYPE: Marine Buoys/BUOY_POLE/Pole/Non NT, NT
-String1=0x01,
-ExtendedLabels=N
-DayXpm="5 10 2 1"   Colormode=16
-"!	c #000000"
-"  	c none"
-"     "
-"     "
-"     "
-"     "
-"     "
-"     "
-"     "
-"     "
-"     "
-"     "
-;12345
 [end]
