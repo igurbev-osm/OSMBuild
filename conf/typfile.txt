@@ -1,4 +1,4 @@
-; typfile.typ
+﻿; typfile.typ
 ; Longueur: 37486 octets
 ; Fichier TYP compilé     27/11/2016     07:22:42
 ; Décompilé le 11/27/2016 à 7:22:42 AM
