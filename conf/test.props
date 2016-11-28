@@ -1,0 +1,10 @@
+download_url=http://api.openstreetmap.org/api/0.6/map?bbox=24.2599,42.7055,24.5294,42.8163
+download_name=map.osm
+srtm_file=mirkovo.srtm.osm
+mapid=15390001
+description=OSM Test igurbev
+family_id=1539
+output_dir=test
+instalation_name=OSM Test
+country-name=Bulgaria
+country-abbr=BG
