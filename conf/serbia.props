@@ -1,9 +1,9 @@
 download_url=http://download.geofabrik.de/europe/serbia-latest.osm.pbf
 download_name=serbia-latest.osm.pbf
 srtm_file=serbia.srtm10.osm
-mapid=45490001
+mapid=55490001
 description=OSM Serbia igurbev
-family_id=4549
+family_id=5549
 output_dir=serbia
 instalation_name=OSM Serbia
 country-name=Serbia
