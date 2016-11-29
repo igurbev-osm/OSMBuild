@@ -1,5 +1,5 @@
 echo '---------------------------------- START -----------------------------------------'
-::call build.bat conf\bulgaria.props > ../logs/bulgaria.log
+call build.bat conf\bulgaria.props > ../logs/bulgaria.log
 call build.bat conf\greece.props > ../logs/greece.log
 call build.bat conf\albania.props > ../logs/albania.log
 call build.bat conf\makedonia.props > ../logs/makedonia.log

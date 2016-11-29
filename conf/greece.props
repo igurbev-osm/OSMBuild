@@ -9,3 +9,4 @@ args_file=greece.args
 instalation_name=OSM Greece
 country-name=Greece
 country-abbr=GR
+upload-ftp=t
