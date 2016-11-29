@@ -32,14 +32,17 @@ IF EXIST "..\ready\%instalation_name%.exe" (
 ) 
 move "%instalation_name%.exe" "..\ready\%instalation_name%.exe"
 
-set instalation_name=%instalation_name: =%
-ren gmapsupp.img %instalation_name%.img
-IF EXIST "..\ready\%instalation_name%.img" (
-	move "..\ready\%instalation_name%.img" "..\backup\%instalation_name%.img"
+set img_name=%instalation_name: =%
+ren gmapsupp.img %img_name%.img
+IF EXIST "..\ready\%img_name%.img" (
+	move "..\ready\%img_name%.img" "..\backup\%img_name%.img"
 )
-move "%instalation_name%.img" "..\ready\%instalation_name%.img"
+move "%img_name%.img" "..\ready\%img_name%.img"
 
 cd ..
 rd /S /Q %output_dir%
+
+cd ready
+call sendFtp "%instalation_name%.exe"
 
 cd %src_dir%
