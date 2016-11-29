@@ -1,0 +1,10 @@
+download_url=http://download.geofabrik.de/europe/kosovo-latest.osm.pbf
+download_name=kosovo-latest.osm.pbf
+srtm_file=kosovo.srtm10.osm
+mapid=65010001
+description=OSM Kosovo igurbev
+family_id=6501
+output_dir=kosovo
+instalation_name=OSM Kosovo
+country-name=Kosovo
+country-abbr=KS

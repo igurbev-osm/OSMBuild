@@ -7,7 +7,7 @@ cd %base_dir%
 
 ::wget -O download/%download_name% %download_url%
 
-del /F /S /Q %output_dir%
+rd /S /Q %output_dir%
 mkdir %output_dir%
 cd %output_dir%
 
@@ -20,14 +20,31 @@ sed -i "s/{src_dir}/"%src_dir%"/g" next.args
 
 java -jar ../mkgmap-r3701/mkgmap.jar --family-id=%family_id% %src_dir%\conf\typfile.txt
 ::../srtm2osm.exe -bounds1 41.1330000 22.3410000 44.2650000 28.6690000 -cat 400 100 -large -corrxy 0.0005 0.0006 -step 10 -o %srtm_file%
-java -Xmx1500m -XX:MaxHeapSize=1024m -jar ../splitter-r439/splitter.jar --max-nodes=5000000 --max-areas=512 --mapid=%mapid%  --keep-complete=false --description="%description%" --mixed ../download/%download_name% ../Srtm2Osm/%srtm_file%
+::java -Xmx1500m -XX:MaxHeapSize=1024m -jar ../splitter-r439/splitter.jar --max-nodes=5000000 --max-areas=512 --mapid=%mapid%  --keep-complete=false --description="%description%" --mixed ../download/%download_name% ../Srtm2Osm/%srtm_file%
+java -Xmx1500m -XX:MaxHeapSize=1024m -jar ../splitter-r439/splitter.jar --max-nodes=5000000 --max-areas=512 --mapid=%mapid%  --keep-complete=false --description="%description%" --mixed ../download/%download_name%
 java -Xmx1024m -jar ../mkgmap-r3701/mkgmap.jar --style-file=%src_dir%/styles/mystyle -c next.args -c template.args --gmapsupp %family_id%*.osm.pbf typfile.typ
 
 sed -i "s/OSM map/%instalation_name%/g" osmmap.nsi
 sed -i "s/xtypfile.typ/typfile.typ/g" osmmap.nsi
 makensis osmmap.nsi
 
-set instalation_name=%instalation_name: =%
-ren gmapsupp.img %instalation_name%.img
+IF EXIST "..\ready\%instalation_name%.exe" (
+	move "..\ready\%instalation_name%.exe" "..\backup\%instalation_name%.exe"
+) 
+move "%instalation_name%.exe" "..\ready\%instalation_name%.exe"
+
+set img_name=%instalation_name: =%
+ren gmapsupp.img %img_name%.img
+IF EXIST "..\ready\%img_name%.img" (
+	move "..\ready\%img_name%.img" "..\backup\%img_name%.img"
+)
+move "%img_name%.img" "..\ready\%img_name%.img"
+
+cd ..
+rd /S /Q %output_dir%
+
+cd ready
+call sendFtp.bat "%instalation_name%.exe"
 
 cd %src_dir%
+

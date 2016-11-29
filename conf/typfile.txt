@@ -1,7 +1,7 @@
 ﻿; typfile.typ
-; Longueur: 37494 octets
-; Fichier TYP compilé     28-11-2016     19:10:03
-; Décompilé le 28-Nov-16 à 19:10:03
+; Longueur: 37483 octets
+; Fichier TYP compilé     29-11-2016     13:52:45
+; Décompilé le 29-Nov-16 à 13:52:50
 
 [_id]
 ProductCode=1
@@ -1434,7 +1434,7 @@ Xpm="32 3 2  1"
 "! c #FFFFD5"
 "# c #390000"
 "################################"
-"!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+"####!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
 "################################"
 ;12345678901234567890123456789012
 String1=0x22,Почвен път
@@ -2286,18 +2286,12 @@ ExtendedLabels=N
 Type=0x10e16
 ;GRMN_TYPE: Customizable Line Types/CUSTOMIZABLE_LINE_23/Non-routable customizable line/Non NT, NT
 UseOrientation=N
-Xpm="32 10 2  1"
+Xpm="32 4 2  1"
 "! c #000000"
 "  c none"
 "!!!!        !!!!!!!!        !!!!"
-"!!!!        !!!!!!!!        !!!!"
 "                                "
 "                                "
-"                                "
-"                                "
-"                                "
-"                                "
-"!!!!        !!!!!!!!        !!!!"
 "!!!!        !!!!!!!!        !!!!"
 ;12345678901234567890123456789012
 String1=0x04,Tunnel

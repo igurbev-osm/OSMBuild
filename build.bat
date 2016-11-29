@@ -7,7 +7,7 @@ cd %base_dir%
 
 wget -O download/%download_name% %download_url%
 
-del /F /S /Q %output_dir%
+rd /S /Q %output_dir%
 mkdir %output_dir%
 cd %output_dir%
 
@@ -27,7 +27,19 @@ sed -i "s/OSM map/%instalation_name%/g" osmmap.nsi
 sed -i "s/xtypfile.typ/typfile.typ/g" osmmap.nsi
 makensis osmmap.nsi
 
+IF EXIST "..\ready\%instalation_name%.exe" (
+	move "..\ready\%instalation_name%.exe" "..\backup\%instalation_name%.exe"
+) 
+move "%instalation_name%.exe" "..\ready\%instalation_name%.exe"
+
 set instalation_name=%instalation_name: =%
 ren gmapsupp.img %instalation_name%.img
+IF EXIST "..\ready\%instalation_name%.img" (
+	move "..\ready\%instalation_name%.img" "..\backup\%instalation_name%.img"
+)
+move "%instalation_name%.img" "..\ready\%instalation_name%.img"
+
+cd ..
+rd /S /Q %output_dir%
 
 cd %src_dir%
