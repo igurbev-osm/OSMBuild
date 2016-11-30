@@ -1,0 +1,10 @@
+download_url=http://download.geofabrik.de/europe/croatia-latest.osm.pbf
+download_name=croatia-latest.osm.pbf
+srtm_file=croatia.srtm10.osm
+mapid=65020001
+description=OSM Croatia igurbev
+family_id=6502
+output_dir=croatia
+instalation_name=OSM Croatia
+country-name=Croatia
+country-abbr=HR

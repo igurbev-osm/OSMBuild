@@ -8,4 +8,6 @@ call build.bat conf\montenegro.props > ../logs/montenegro.log
 call build.bat conf\bih.props > ../logs/bih.log
 call build.bat conf\kosovo.props > ../logs/kosovo.log
 call build.bat conf\serbia.props > ../logs/serbia.log
+call build.bat conf\slovenia.props > ../logs/slovenia.log
+call build.bat conf\croatia.props > ../logs/croatia.log
 echo '----------------------------------- END -----------------------------------------'

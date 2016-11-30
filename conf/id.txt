@@ -8,6 +8,7 @@ mirkovo:7549
 greece:8549
 albania:9549
 kosovo:6501
-
+criatia:6502
+slovenia:6503
 
 

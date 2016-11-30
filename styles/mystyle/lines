@@ -5,7 +5,7 @@ blue:white:blue_bar=yes [0x10e07 resolution 23 continue]
 red:white:red_bar=yes [0x10f08 resolution 23 continue]
 green:white:green_bar=yes [0x10f0e resolution 23 continue]
 yellow:white:yellow_bar=yes [0x10e05 resolution 23 continue]
-red:white:red_circle=yes [0x1a00 resolution 23 continue]
+red:white:red_circle=yes [0x10f10 resolution 23 continue]
 
 addr:housenumber=* {set mkgmap:execute_finalize_rules=true}
 aeroway=runway [0x27 resolution 20]
