@@ -54,7 +54,7 @@ rd /S /Q %output_dir%
 cd ready
 call sendFtp "%instalation_name%.exe"
 
-IF %upload-ftp% == t (
+IF "%upload-img%" == "t" (
 	call sendFtp "%img_name%.img"
 )
 

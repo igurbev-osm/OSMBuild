@@ -9,4 +9,4 @@ args_file=other.args
 instalation_name=OSM Bulgaria
 country-name=Bulgaria
 country-abbr=BG
-upload-ftp=t
+upload-img=t

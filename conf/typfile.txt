@@ -8953,36 +8953,6 @@ DayXpm="16 16 2 1"   Colormode=16
 
 [_point]
 Type=0x065
-SubType=0x03
-;GRMN_TYPE: Geographical Named Points of Interest - Water Related/BAY/Bay/Non NT, NT
-String1=0x04,Crossroad
-String2=0x22,Кръстопът
-ExtendedLabels=N
-DayXpm="16 16 2 1"   Colormode=16
-"!	c #000000"
-"  	c none"
-"                "
-"                "
-"                "
-"                "
-"   !!      !!   "
-"    !!!  !!!    "
-"      !!!!      "
-"       !!       "
-"       !!       "
-"      !!!!      "
-"    !!!  !!!    "
-"   !!      !!   "
-"                "
-"                "
-"                "
-"                "
-;1234567890123456
-[end]
-
-
-[_point]
-Type=0x065
 SubType=0x05
 ;GRMN_TYPE: Geographical Named Points of Interest - Water Related/CANAL/Canal/Non NT, NT
 String1=0x04,Shop
