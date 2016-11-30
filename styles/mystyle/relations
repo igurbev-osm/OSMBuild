@@ -19,6 +19,12 @@ type=route & route=hiking & osmc:symbol=yellow:white:yellow_bar {
         }
 }
 
+type=route & route=hiking & osmc:symbol=red:white:red_circle {
+        apply {                
+                set red:white:red_circle=yes;				
+        }
+}
+
 
 # -------------------------------------------------------------------
 # This is the default mkgmap style file for applying rules on
