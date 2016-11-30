@@ -1,7 +1,7 @@
-﻿; typfile.typ
-; Longueur: 37483 octets
-; Fichier TYP compilé     29-11-2016     13:52:45
-; Décompilé le 29-Nov-16 à 13:52:50
+; typfile.typ
+; Longueur: 37494 octets
+; Fichier TYP compilé     28/11/2016     17:55:06
+; Décompilé le 11/30/2016 à 9:09:01 AM
 
 [_id]
 ProductCode=1
@@ -1370,9 +1370,10 @@ ExtendedLabels=N
 Type=0x0b
 ;GRMN_TYPE: Roads/MAJOR_CONNECTOR/Major highway connector/Non NT, NT
 UseOrientation=Y
-LineWidth=3
-Xpm="0 0 1 0"
-"1 c #390000"
+LineWidth=4
+Xpm="0 0 2 0"
+"1 c #000000"
+"2 c #FFFFFF"
 String1=0x04,Macadam
 String2=0x22,Макадам
 ExtendedLabels=N
@@ -1383,12 +1384,13 @@ ExtendedLabels=N
 Type=0x0c
 ;GRMN_TYPE: Roads/ROUNDABOUT/Roundabout/Non NT, NT
 UseOrientation=N
-Xpm="32 3 2  1"
-"! c #FFFFD5"
-"# c #390000"
-"################################"
-"!!!!!!##########################"
-"################################"
+Xpm="32 4 2  1"
+"! c #000000"
+"# c #BD6500"
+"!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+"!!!!!!!!!!!!!!!!################"
+"!!!!!!!!!!!!!!!!################"
+"!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
 ;12345678901234567890123456789012
 String1=0x22,Черен път, стабилен
 ExtendedLabels=N
@@ -1414,11 +1416,12 @@ ExtendedLabels=N
 Type=0x0e
 ;GRMN_TYPE: Customizable Line Types/CUSTOMIZABLE_ROUTE_LINE_2/Routable customizable line/Non NT, NT
 UseOrientation=N
-Xpm="32 3 2  1"
-"! c #FFFFD5"
+Xpm="32 4 2  1"
+"! c #7BCA8B"
 "# c #390000"
 "################################"
-"!!!!!!!!!!!!!!!!################"
+"!!!!!!!!!!!!!!!!!###############"
+"!!!!!!!!!!!!!!!!!###############"
 "################################"
 ;12345678901234567890123456789012
 String1=0x22,Черен път, сравнително стабилен
@@ -1431,10 +1434,10 @@ Type=0x0f
 ;GRMN_TYPE: Customizable Line Types/CUSTOMIZABLE_ROUTE_LINE_3/Routable customizable line/Non NT, NT
 UseOrientation=N
 Xpm="32 3 2  1"
-"! c #FFFFD5"
+"! c #FFFF00"
 "# c #390000"
 "################################"
-"####!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+"!!!!!!!!!########!!!!!!!!#######"
 "################################"
 ;12345678901234567890123456789012
 String1=0x22,Почвен път
@@ -1447,10 +1450,10 @@ Type=0x10
 ;GRMN_TYPE: Customizable Line Types/CUSTOMIZABLE_ROUTE_LINE_4/Routable customizable line/Non NT, NT
 UseOrientation=N
 Xpm="32 3 2  1"
-"! c #FFFFD5"
+"! c #BDFF8B"
 "# c #390000"
 "################################"
-"!!!!!!!!!!!!!!!!!!!!!!!!########"
+"!!!!!!!!########!!!!!!!!########"
 "################################"
 ;12345678901234567890123456789012
 String1=0x02,Черен път(предимно почвен)
@@ -2286,12 +2289,18 @@ ExtendedLabels=N
 Type=0x10e16
 ;GRMN_TYPE: Customizable Line Types/CUSTOMIZABLE_LINE_23/Non-routable customizable line/Non NT, NT
 UseOrientation=N
-Xpm="32 4 2  1"
+Xpm="32 10 2  1"
 "! c #000000"
 "  c none"
 "!!!!        !!!!!!!!        !!!!"
+"!!!!        !!!!!!!!        !!!!"
 "                                "
 "                                "
+"                                "
+"                                "
+"                                "
+"                                "
+"!!!!        !!!!!!!!        !!!!"
 "!!!!        !!!!!!!!        !!!!"
 ;12345678901234567890123456789012
 String1=0x04,Tunnel
@@ -5276,7 +5285,7 @@ DayXpm="13 9 3 1"   Colormode=16
 Type=0x01a
 SubType=0x00
 ;GRMN_TYPE: //
-String1=0x04,Wegmarkierung
+String1=0x22,Маркировка - червена точка
 ExtendedLabels=N
 DayXpm="13 9 2 1"   Colormode=16
 "!	c #FF0000"
