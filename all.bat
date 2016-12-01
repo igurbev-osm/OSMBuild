@@ -6,6 +6,7 @@ call build.bat conf\montenegro.props
 call build.bat conf\slovenia.props
 call build.bat conf\bih.props
 call build.bat conf\kosovo.props
+call build.bat conf\croatia.props
 call build.bat conf\serbia.props
 call build.bat conf\romania.props
-call build.bat conf\croatia.props
+

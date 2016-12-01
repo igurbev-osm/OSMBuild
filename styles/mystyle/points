@@ -300,7 +300,7 @@ tourism=zoo [0x2c07 resolution 22]
 
 barrier=bollard | barrier=bus_trap | barrier=gate [0x6406 resolution 22]
 barrier=block | barrier=cycle_barrier | barrier=stile | barrier=kissing_gate [0x6406 resolution 22]
-barrier=* [0x6406 resolution 22]
+barrier=lift_gate [0x6406 resolution 22]
 
 include 'inc/water_points';
 include 'inc/landuse_points';
