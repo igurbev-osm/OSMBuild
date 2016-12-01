@@ -1,7 +1,7 @@
 ﻿; typfile.typ
 ; Longueur: 0 octets
-; Fichier TYP compilé     01-12-2016     15:12:09
-; Décompilé le 01-Dec-16 à 15:13:19
+; Fichier TYP compilé     01-12-2016     16:38:39
+; Décompilé le 01-Dec-16 à 16:38:39
 
 [_id]
 ProductCode=1
@@ -3067,54 +3067,6 @@ DayXpm="4 4 2 1"   Colormode=16
 
 
 [_point]
-Type=0x001
-SubType=0x1b
-;GRMN_TYPE: //
-String1=0x22,Връх
-ExtendedLabels=N
-DayXpm="14 12 25 2"   Colormode=16
-"!!	c #0000F8"
-"!#	c #F8FCF8"
-"!%	c #000000"
-"!?	c #F8FCC0"
-"!$	c #F8FCA8"
-"!*	c #F8FCE0"
-"!=	c #F8FCB8"
-"!1	c #00D8F8"
-"!2	c #00A0F8"
-"!3	c #0080F8"
-"!4	c #002CF8"
-"!5	c #00FCF8"
-"!6	c #0064F8"
-"!7	c #00E0F8"
-"!8	c #00D0F8"
-"!9	c #00B4F8"
-"#!	c #009CF8"
-"##	c #0060F8"
-"#%	c #0028F8"
-"#?	c #0088F8"
-"#$	c #00A4F8"
-"#*	c #0090F8"
-"#=	c #007CF8"
-"#1	c #004CF8"
-"  	c none"
-"                  !#        "
-"          !#    !#!%!#      "
-"        !#!%!#!#!%!%!#      "
-"      !#!%!#!%!%!?!$!%!#    "
-"    !#!#!%!*!*!%!=!$!%!#    "
-"    !#!%!#!#!#!#!#!#!#!%!#  "
-"    !#!%!1!1!1!2!3!3!4!%!#  "
-"    !#!%!5!1!1!2!3!6!4!%!#  "
-"  !#!%!1!7!8!9#!!3###%!%!#  "
-"!#!%#?#$#$!2#*#=!6#1!!!!!%!#"
-"!#!%!%!%!%!%!%!%!%!%!%!%!%!#"
-"!#!#!#!#!#!#!#!#!#!#!#!#!#!#"
-;12345678901234
-[end]
-
-
-[_point]
 Type=0x002
 SubType=0x00
 ;GRMN_TYPE: Political Entities/CITY_5M, LARGE_CITY/Large city center, typically 1M+ inhabitants/Non NT
@@ -3201,65 +3153,6 @@ DayXpm="16 16 2 1"   Colormode=16
 "                "
 "                "
 ;1234567890123456
-[end]
-
-
-[_point]
-Type=0x016
-SubType=0x00
-;GRMN_TYPE: //
-String1=0x22,Барбекю
-ExtendedLabels=Y
-FontStyle=NoLabel (invisible)
-CustomColor=No
-DayXpm="16 16 3 1"   Colormode=16
-"!	c #FFFFFF"
-"#	c #000000"
-"  	c none"
-"                "
-"      !  !      "
-"     !#!!#!     "
-"    !#!!#!      "
-"     !#!!#!     "
-"    !!!!!!!!    "
-"   !########!   "
-"    !######!    "
-"     !####!     "
-"     !###!      "
-"     !#!!#!     "
-"    !#!  !#!    "
-"     !    !     "
-"                "
-"                "
-"                "
-;1234567890123456
-[end]
-
-
-[_point]
-Type=0x016
-SubType=0x01
-;GRMN_TYPE: //
-String1=0x22,Замък
-ExtendedLabels=N
-DayXpm="10 13 3 1"   Colormode=16
-"!	c #000000"
-"#	c #808080"
-"  	c none"
-"   !!#    "
-"   !!!!#  "
-"   !!!!!!#"
-"   !!!!#  "
-"   !!#    "
-"   !      "
-"   !      "
-"   !      "
-"!!!!!!!   "
-"!!!!!!!   "
-"!!!!!!!   "
-"!!!!!!!   "
-"!!!!!!!   "
-;1234567890
 [end]
 
 
@@ -4475,454 +4368,6 @@ DayXpm="16 16 95 2"   Colormode=16
 
 
 [_point]
-Type=0x017
-SubType=0x00
-;GRMN_TYPE: //
-String1=0x04,Wegmarkierung
-ExtendedLabels=N
-DayXpm="13 9 3 1"   Colormode=16
-"!	c #0025FF"
-"#	c #0026FF"
-"  	c none"
-"             "
-"    !###!    "
-"   !#####!   "
-"   #######   "
-"   #######   "
-"   #######   "
-"   !#####!   "
-"    !###!    "
-"             "
-;1234567890123
-[end]
-
-
-[_point]
-Type=0x017
-SubType=0x01
-;GRMN_TYPE: //
-String1=0x04,Wegmarkierung
-ExtendedLabels=N
-DayXpm="13 9 2 1"   Colormode=16
-"!	c #0026FF"
-"  	c none"
-"             "
-"    !!!!!    "
-"   !!!!!!!   "
-"   !!! !!!   "
-"   !!   !!   "
-"   !!! !!!   "
-"   !!!!!!!   "
-"    !!!!!    "
-"             "
-;1234567890123
-[end]
-
-
-[_point]
-Type=0x017
-SubType=0x02
-;GRMN_TYPE: //
-String1=0x04,Wegmarkierung
-ExtendedLabels=N
-DayXpm="13 9 2 1"   Colormode=16
-"!	c #0026FF"
-"  	c none"
-"             "
-"             "
-"             "
-"!!!!!!!!!!!!!"
-"!!!!!!!!!!!!!"
-"!!!!!!!!!!!!!"
-"             "
-"             "
-"             "
-;1234567890123
-[end]
-
-
-[_point]
-Type=0x017
-SubType=0x03
-;GRMN_TYPE: //
-String1=0x04,Wegmarkierung
-ExtendedLabels=N
-DayXpm="13 9 2 1"   Colormode=16
-"!	c #0026FF"
-"  	c none"
-"     !!!     "
-"     !!!     "
-"     !!!     "
-"!!!!!!!!!!!!!"
-"!!!!!!!!!!!!!"
-"!!!!!!!!!!!!!"
-"     !!!     "
-"     !!!     "
-"     !!!     "
-;1234567890123
-[end]
-
-
-[_point]
-Type=0x017
-SubType=0x07
-;GRMN_TYPE: //
-String1=0x04,Wegmarkierung
-ExtendedLabels=N
-DayXpm="13 9 2 1"   Colormode=16
-"!	c #0000FF"
-"  	c none"
-"             "
-"      !      "
-"    !!!!!    "
-"   !!!!!!!   "
-"  !!!!!!!!!  "
-"   !!!!!!!   "
-"    !!!!!    "
-"      !      "
-"             "
-;1234567890123
-[end]
-
-
-[_point]
-Type=0x017
-SubType=0x09
-;GRMN_TYPE: //
-String1=0x04,Wegmarkierung
-ExtendedLabels=N
-DayXpm="13 9 2 1"   Colormode=16
-"!	c #0026FF"
-"  	c none"
-"             "
-"             "
-"   !!!!!!!   "
-"   !!!!!!!   "
-"   !!!!!!!   "
-"   !!!!!!!   "
-"   !!!!!!!   "
-"             "
-"             "
-;1234567890123
-[end]
-
-
-[_point]
-Type=0x017
-SubType=0x0f
-;GRMN_TYPE: //
-String1=0x04,Wegmarkierung
-ExtendedLabels=N
-DayXpm="13 9 2 1"   Colormode=16
-"!	c #0026FF"
-"  	c none"
-"             "
-"             "
-"             "
-"             "
-"!!!!!!!!!!!!!"
-"!!!!!!!!!!!!!"
-"!!!!!!!!!!!!!"
-"!!!!!!!!!!!!!"
-"!!!!!!!!!!!!!"
-;1234567890123
-[end]
-
-
-[_point]
-Type=0x017
-SubType=0x10
-;GRMN_TYPE: //
-String1=0x04,Wegmarkierung
-ExtendedLabels=N
-DayXpm="13 9 3 1"   Colormode=16
-"!	c #FFD800"
-"#	c #E2BD00"
-"  	c none"
-"             "
-"    !###!    "
-"   !#####!   "
-"   #######   "
-"   #######   "
-"   #######   "
-"   !#####!   "
-"    !###!    "
-"             "
-;1234567890123
-[end]
-
-
-[_point]
-Type=0x018
-SubType=0x00
-;GRMN_TYPE: //
-String1=0x04,Wegmarkierung
-ExtendedLabels=N
-DayXpm="13 9 2 1"   Colormode=16
-"!	c #000000"
-"  	c none"
-"             "
-"    !!!!!    "
-"   !!!!!!!   "
-"   !!!!!!!   "
-"   !!!!!!!   "
-"   !!!!!!!   "
-"   !!!!!!!   "
-"    !!!!!    "
-"             "
-;1234567890123
-[end]
-
-
-[_point]
-Type=0x018
-SubType=0x0d
-;GRMN_TYPE: //
-String1=0x04,Wegmarkierung
-ExtendedLabels=N
-DayXpm="13 9 2 1"   Colormode=16
-"!	c #000000"
-"  	c none"
-"             "
-"    !!!!!    "
-"   !!!!!!!   "
-"   !!! !!!   "
-"   !!   !!   "
-"   !!   !!   "
-"   !!   !!   "
-"   !!   !!   "
-"             "
-;1234567890123
-[end]
-
-
-[_point]
-Type=0x018
-SubType=0x10
-;GRMN_TYPE: //
-String1=0x04,Wegmarkierung
-ExtendedLabels=N
-DayXpm="13 9 4 1"   Colormode=16
-"!	c #268000"
-"#	c #267F00"
-"%	c #297F02"
-"  	c none"
-"             "
-"    !####    "
-"   #######   "
-"   #######   "
-"   #######   "
-"   #######   "
-"   %######   "
-"    !####    "
-"             "
-;1234567890123
-[end]
-
-
-[_point]
-Type=0x018
-SubType=0x11
-;GRMN_TYPE: //
-String1=0x04,Wegmarkierung
-ExtendedLabels=N
-DayXpm="13 9 3 1"   Colormode=16
-"!	c #268000"
-"#	c #267F00"
-"  	c none"
-"             "
-"    !###!    "
-"   !#####!   "
-"   ##! !##   "
-"   ##   ##   "
-"   ##! !##   "
-"   !#####!   "
-"    !###!    "
-"             "
-;1234567890123
-[end]
-
-
-[_point]
-Type=0x018
-SubType=0x12
-;GRMN_TYPE: //
-String1=0x04,Wegmarkierung
-ExtendedLabels=N
-DayXpm="13 9 2 1"   Colormode=16
-"!	c #267F00"
-"  	c none"
-"             "
-"             "
-"             "
-"!!!!!!!!!!!!!"
-"!!!!!!!!!!!!!"
-"!!!!!!!!!!!!!"
-"             "
-"             "
-"             "
-;1234567890123
-[end]
-
-
-[_point]
-Type=0x018
-SubType=0x13
-;GRMN_TYPE: //
-String1=0x04,Wegmarkierung
-ExtendedLabels=N
-DayXpm="13 9 2 1"   Colormode=16
-"!	c #267F00"
-"  	c none"
-"     !!!     "
-"     !!!     "
-"     !!!     "
-"!!!!!!!!!!!!!"
-"!!!!!!!!!!!!!"
-"!!!!!!!!!!!!!"
-"     !!!     "
-"     !!!     "
-"     !!!     "
-;1234567890123
-[end]
-
-
-[_point]
-Type=0x018
-SubType=0x19
-;GRMN_TYPE: //
-String1=0x04,Wegmarkierung
-ExtendedLabels=N
-DayXpm="13 9 2 1"   Colormode=16
-"!	c #267F00"
-"  	c none"
-"             "
-"             "
-"   !!!!!!!   "
-"   !!!!!!!   "
-"   !!!!!!!   "
-"   !!!!!!!   "
-"   !!!!!!!   "
-"             "
-"             "
-;1234567890123
-[end]
-
-
-[_point]
-Type=0x018
-SubType=0x1a
-;GRMN_TYPE: //
-String1=0x04,Wegmarkierung
-ExtendedLabels=N
-DayXpm="13 9 3 1"   Colormode=16
-"!	c #267F00"
-"#	c #268000"
-"  	c none"
-"             "
-" !#          "
-" !!!!#       "
-" !!!!!!!#    "
-" !!!!!!!!!!  "
-" !!!!!!!#    "
-" !!!!#       "
-" !#          "
-"             "
-;1234567890123
-[end]
-
-
-[_point]
-Type=0x018
-SubType=0x1e
-;GRMN_TYPE: //
-String1=0x04,Wegmarkierung
-ExtendedLabels=N
-DayXpm="13 9 3 1"   Colormode=16
-"!	c #268000"
-"#	c #267F00"
-"  	c none"
-"             "
-"  !##!!      "
-" !#! !##!    "
-" #!    !!#!  "
-" #        ## "
-" #!    !!#!  "
-" !#! !##!    "
-"  !##!!      "
-"             "
-;1234567890123
-[end]
-
-
-[_point]
-Type=0x019
-SubType=0x01
-;GRMN_TYPE: //
-String1=0x04,Wegmarkierung
-ExtendedLabels=N
-DayXpm="13 9 2 1"   Colormode=16
-"!	c #FFFFFF"
-"  	c none"
-"             "
-"    !!!!!    "
-"   !!!!!!!   "
-"   !!! !!!   "
-"   !!   !!   "
-"   !!! !!!   "
-"   !!!!!!!   "
-"    !!!!!    "
-"             "
-;1234567890123
-[end]
-
-
-[_point]
-Type=0x019
-SubType=0x03
-;GRMN_TYPE: //
-String1=0x04,Wegmarkierung
-ExtendedLabels=N
-DayXpm="13 9 2 1"   Colormode=16
-"!	c #FFFFFF"
-"  	c none"
-"     !!!     "
-"     !!!     "
-"     !!!     "
-"!!!!!!!!!!!!!"
-"!!!!!!!!!!!!!"
-"!!!!!!!!!!!!!"
-"     !!!     "
-"     !!!     "
-"     !!!     "
-;1234567890123
-[end]
-
-
-[_point]
-Type=0x019
-SubType=0x0d
-;GRMN_TYPE: //
-String1=0x04,Wegmarkierung
-ExtendedLabels=N
-DayXpm="13 9 3 1"   Colormode=16
-"!	c #C0C0C0"
-"#	c #FFFFFF"
-"  	c none"
-"             "
-"    !###!    "
-"   !#####!   "
-"   ##! !##   "
-"   ##   ##   "
-"   ##   ##   "
-"   ##   ##   "
-"   ##   ##   "
-"             "
-;1234567890123
-[end]
-
-
-[_point]
 Type=0x01b
 SubType=0x01
 ;GRMN_TYPE: //
@@ -5160,214 +4605,6 @@ DayXpm="11 14 3 1"   Colormode=16
 "     !     "
 "     !     "
 ;12345678901
-[end]
-
-
-[_point]
-Type=0x01e
-SubType=0x00
-;GRMN_TYPE: Political Entities/PROVINCE, STATE/Province, State center/Non NT, NT
-String1=0x04,Wegmarkierung
-ExtendedLabels=N
-DayXpm="13 9 2 1"   Colormode=0
-"!	c #0026FF"
-"#	c #000000"
-"!!!!!!!!!!!!!"
-"!!!!!!!!!!!!!"
-"!!!!!!!!!!!!!"
-"!!!!!!!!!!!!!"
-"!!!!!!!!!!!!!"
-"!!!!!!!!!!!!!"
-"!!!!!!!!!!!!!"
-"!!!!!!!!!!!!!"
-"!!!!!!!!!!!!!"
-;1234567890123
-[end]
-
-
-[_point]
-Type=0x01e
-SubType=0x01
-;GRMN_TYPE: //
-String1=0x04,Wegmarkierung
-ExtendedLabels=N
-DayXpm="13 9 2 1"   Colormode=0
-"!	c #FFD800"
-"#	c #000000"
-"!!!!!!!!!!!!!"
-"!!!!!!!!!!!!!"
-"!!!!!!!!!!!!!"
-"!!!!!!!!!!!!!"
-"!!!!!!!!!!!!!"
-"!!!!!!!!!!!!!"
-"!!!!!!!!!!!!!"
-"!!!!!!!!!!!!!"
-"!!!!!!!!!!!!!"
-;1234567890123
-[end]
-
-
-[_point]
-Type=0x01e
-SubType=0x02
-;GRMN_TYPE: //
-String1=0x04,Wegmarkierung
-ExtendedLabels=N
-DayXpm="13 9 2 1"   Colormode=0
-"!	c #FF0000"
-"#	c #000000"
-"!!!!!!!!!!!!!"
-"!!!!!!!!!!!!!"
-"!!!!!!!!!!!!!"
-"!!!!!!!!!!!!!"
-"!!!!!!!!!!!!!"
-"!!!!!!!!!!!!!"
-"!!!!!!!!!!!!!"
-"!!!!!!!!!!!!!"
-"!!!!!!!!!!!!!"
-;1234567890123
-[end]
-
-
-[_point]
-Type=0x01e
-SubType=0x03
-;GRMN_TYPE: //
-String1=0x04,Wegmarkierung
-ExtendedLabels=N
-DayXpm="13 9 2 1"   Colormode=0
-"!	c #267F00"
-"#	c #000000"
-"!!!!!!!!!!!!!"
-"!!!!!!!!!!!!!"
-"!!!!!!!!!!!!!"
-"!!!!!!!!!!!!!"
-"!!!!!!!!!!!!!"
-"!!!!!!!!!!!!!"
-"!!!!!!!!!!!!!"
-"!!!!!!!!!!!!!"
-"!!!!!!!!!!!!!"
-;1234567890123
-[end]
-
-
-[_point]
-Type=0x01e
-SubType=0x04
-;GRMN_TYPE: //
-String1=0x04,Wegmarkierung
-ExtendedLabels=N
-DayXpm="13 9 2 1"   Colormode=0
-"!	c #000000"
-"#	c #000000"
-"!!!!!!!!!!!!!"
-"!!!!!!!!!!!!!"
-"!!!!!!!!!!!!!"
-"!!!!!!!!!!!!!"
-"!!!!!!!!!!!!!"
-"!!!!!!!!!!!!!"
-"!!!!!!!!!!!!!"
-"!!!!!!!!!!!!!"
-"!!!!!!!!!!!!!"
-;1234567890123
-[end]
-
-
-[_point]
-Type=0x01e
-SubType=0x05
-;GRMN_TYPE: //
-String1=0x04,Wegmarkierung
-ExtendedLabels=N
-DayXpm="13 9 2 1"   Colormode=0
-"!	c #FFFFFF"
-"#	c #000000"
-"!!!!!!!!!!!!!"
-"!!!!!!!!!!!!!"
-"!!!!!!!!!!!!!"
-"!!!!!!!!!!!!!"
-"!!!!!!!!!!!!!"
-"!!!!!!!!!!!!!"
-"!!!!!!!!!!!!!"
-"!!!!!!!!!!!!!"
-"!!!!!!!!!!!!!"
-;1234567890123
-[end]
-
-
-[_point]
-Type=0x01e
-SubType=0x11
-;GRMN_TYPE: //
-String1=0x04,Wegmarkierung
-ExtendedLabels=N
-DayXpm="14 14 11 1"   Colormode=16
-"!	c #000000"
-"#	c #8B8B0D"
-"%	c #C8C85D"
-"?	c #FFD800"
-"$	c #ABAB2C"
-"*	c #6A6A00"
-"=	c #090900"
-"1	c #353500"
-"2	c #242400"
-"3	c #AAAA2B"
-"  	c none"
-"  !!!!!!!!!!  "
-" !!#%????%#!! "
-"!!$?*!!!=*?$!!"
-"!#?1!!!!!!2?#!"
-"!%*!!!!!!!!*%!"
-"!?!!!!!!!!!!?!"
-"!?!!!!!!!!!!?!"
-"!?!!!!!!!!!!?!"
-"!?!!!!!!!!!!?!"
-"!?*!!!!!!!!*%!"
-"!#?1!!!!!!2?#!"
-"!!$?*!!!!*?$!!"
-" !!#%????3#!! "
-"  !!!!!!!!!!  "
-;12345678901234
-[end]
-
-
-[_point]
-Type=0x01e
-SubType=0x15
-;GRMN_TYPE: //
-String1=0x04,Wegmarkierung
-ExtendedLabels=N
-DayXpm="14 14 15 1"   Colormode=16
-"!	c #000000"
-"#	c #808080"
-"%	c #C0C0C0"
-"?	c #E7E7E7"
-"$	c #FFFFFF"
-"*	c #F7F7F7"
-"=	c #A0A0A0"
-"1	c #606060"
-"2	c #080808"
-"3	c #303030"
-"4	c #202020"
-"5	c #BFBFBF"
-"6	c #EFEFEF"
-"7	c #9F9F9F"
-"  	c none"
-"  !!!!!!!!!!  "
-" !!#%?$$*%#!! "
-"!!=$1!!!21$=!!"
-"!#$3!!!!!!4$#!"
-"!%1!!!!!!!!1%!"
-"!5!!!!!!!!!!6!"
-"!$!!!!!!!!!!$!"
-"!?!!!!!!!!!!$!"
-"!5!!!!!!!!!!6!"
-"!%1!!!!!!!!1%!"
-"!#$3!!!!!!4$#!"
-"!!=$1!!!!1$=!!"
-" !!#%?$$*7#!! "
-"  !!!!!!!!!!  "
-;12345678901234
 [end]
 
 
@@ -5793,13 +5030,47 @@ DayXpm="16 16 3 1"   Colormode=16
 Type=0x02c
 SubType=0x07
 ;GRMN_TYPE: Business - Attractions/ZOO/Zoo/Non NT
-String1=0x02,Zoo
+String1=0x22,Зоологическа градина
 ExtendedLabels=N
-DayXpm="1 1 2 1"   Colormode=0
-"!	c #000000"
-"#	c #FFFFFF"
-"!"
-;1
+DayXpm="16 15 22 2"   Colormode=16
+"!!	c #404040"
+"!#	c #F8FCF8"
+"!%	c #000000"
+"!?	c #C0C4C0"
+"!$	c #B0B4B0"
+"!*	c #A0A4A0"
+"!=	c #C8CCC8"
+"!1	c #E0E4E0"
+"!2	c #B8BCB8"
+"!3	c #A8ACA8"
+"!4	c #989C98"
+"!5	c #888888"
+"!6	c #707070"
+"!7	c #787878"
+"!8	c #D0D4D0"
+"!9	c #505050"
+"#!	c #808080"
+"##	c #909490"
+"#%	c #686868"
+"#?	c #606060"
+"#$	c #585858"
+"  	c none"
+"          !#!#!#!#!#            "
+"        !#!%!%!%!%!%!#!#!#!#!#!#"
+"      !#!%!?!?!$!*!%!%!%!%!%!%!#"
+"    !#!%!=!1!=!2!3!4!5!6!%!%!7!#"
+"  !#!%!?!8!%!%!?!3!4!5!6!9!%!5!#"
+"!#!%!2!2!=!=!=!2!3!4#!!6!9!%!5!#"
+"!#!%!2!3!2!2!2!3!%###!#%!9!%!5!#"
+"!#!%!2!3!%!%!4!4!%#!!6#?!9!%#!!#"
+"!#!%!2!%!#!#!%!%!%!7#%!9!9!%!6!#"
+"!#!%!2!%!#  !#!#!#!%!9!9!9!%#%!#"
+"!#!%!2!%!#!#!%!#!#!%!%!%!%!%#$!#"
+"!#!#!%!2!%!%!2!%!#!#!%!%!9!9!!!#"
+"    !#!%!2!2!%!#    !#!%!!!!!%!#"
+"      !#!%!%!#      !#!%!!!!!%!#"
+"        !#!#        !#!#!#!#!#!#"
+;1234567890123456
 [end]
 
 
@@ -6344,6 +5615,36 @@ DayXpm="13 15 20 2"   Colormode=16
 Type=0x02e
 SubType=0x05
 ;GRMN_TYPE: Business - Shopping/PHARMACY/Pharmacy/Non NT
+String1=0x02,Apotheke
+ExtendedLabels=N
+DayXpm="16 16 3 1"   Colormode=16
+"!	c #FFFFFF"
+"#	c #167700"
+"  	c none"
+"                "
+"     !!!!!!     "
+"     !####!     "
+"     !####!     "
+"     !####!     "
+" !!!!!####!!!!! "
+" !############! "
+" !############! "
+" !############! "
+" !############! "
+" !!!!!####!!!!! "
+"     !####!     "
+"     !####!     "
+"     !####!     "
+"     !!!!!!     "
+"                "
+;1234567890123456
+[end]
+
+
+[_point]
+Type=0x02e
+SubType=0x05
+;GRMN_TYPE: Business - Shopping/PHARMACY/Pharmacy/Non NT
 String1=0x04,Pharmacy
 String2=0x22,Аптека
 ExtendedLabels=N
@@ -6368,36 +5669,6 @@ DayXpm="16 16 4 1"   Colormode=16
 "#%%%%%####%%%%%#"
 "#%%%%######%%%%#"
 " ############## "
-;1234567890123456
-[end]
-
-
-[_point]
-Type=0x02e
-SubType=0x05
-;GRMN_TYPE: Business - Shopping/PHARMACY/Pharmacy/Non NT
-String1=0x02,Apotheke
-ExtendedLabels=N
-DayXpm="16 16 3 1"   Colormode=16
-"!	c #FFFFFF"
-"#	c #167700"
-"  	c none"
-"                "
-"     !!!!!!     "
-"     !####!     "
-"     !####!     "
-"     !####!     "
-" !!!!!####!!!!! "
-" !############! "
-" !############! "
-" !############! "
-" !############! "
-" !!!!!####!!!!! "
-"     !####!     "
-"     !####!     "
-"     !####!     "
-"     !!!!!!     "
-"                "
 ;1234567890123456
 [end]
 
@@ -6430,36 +5701,6 @@ DayXpm="16 16 4 1"   Colormode=16
 "     %%%%%      "
 "                "
 "                "
-;1234567890123456
-[end]
-
-
-[_point]
-Type=0x02e
-SubType=0x0a
-;GRMN_TYPE: Business - Shopping/SPECIALTY_RETAIL/Specialty store/Non NT
-String1=0x22,Магазин за велосипеди
-ExtendedLabels=N
-DayXpm="16 16 3 1"   Colormode=16
-"!	c #FFFFFF"
-"#	c #000000"
-"  	c none"
-"                "
-"                "
-"        !!      "
-"       !##!     "
-"       !##!     "
-"       !!!      "
-"      !###!!!   "
-"     !#######!  "
-"    !#####!!!   "
-"  !!!!###! !!!  "
-" !###!!##!!###! "
-"!##!##!##!##!##!"
-"!#! !#!##!#! !#!"
-"!##!##!##!##!##!"
-" !###! !! !###! "
-"  !!!      !!!  "
 ;1234567890123456
 [end]
 
@@ -6852,26 +6093,64 @@ DayXpm="13 15 20 2"   Colormode=16
 
 [_point]
 Type=0x02f
+SubType=0x13
+;GRMN_TYPE: Business - Services/REPAIR_SERVICE/Repair service/Non NT
+String1=0x22,Магазин за велосипеди
+ExtendedLabels=N
+DayXpm="16 16 3 1"   Colormode=16
+"!	c #FFFFFF"
+"#	c #000000"
+"  	c none"
+"                "
+"                "
+"        !!      "
+"       !##!     "
+"       !##!     "
+"       !!!      "
+"      !###!!!   "
+"     !#######!  "
+"    !#####!!!   "
+"  !!!!###! !!!  "
+" !###!!##!!###! "
+"!##!##!##!##!##!"
+"!#! !#!##!#! !#!"
+"!##!##!##!##!##!"
+" !###! !! !###! "
+"  !!!      !!!  "
+;1234567890123456
+[end]
+
+
+[_point]
+Type=0x02f
 SubType=0x17
 ;GRMN_TYPE: /TRANSIT_SERVICES/Transit services/Non NT
 String1=0x02,Haltestelle
 ExtendedLabels=N
-DayXpm="11 11 3 1"   Colormode=16
-"!	c #136500"
-"#	c #F8EF00"
+DayXpm="16 16 6 1"   Colormode=16
+"!	c #000000"
+"#	c #FFFFFF"
+"%	c #0000FF"
+"?	c #FFFF00"
+"$	c #00FFFF"
 "  	c none"
-"   !!!!!   "
-" !!!###!!! "
-" !#######! "
-"!!#!!#!!#!!"
-"!##!!#!!##!"
-"!##!!!!!##!"
-"!##!!#!!##!"
-"!!#!!#!!#!!"
-" !#######! "
-" !!!###!!! "
-"   !!!!!   "
-;12345678901
+"  !!!!!!!!!!!!  "
+" !????????????! "
+"!?$$$$$$$$$$$$?!"
+"!?$$$$$$$$$$$$?!"
+"!?$$$$$$$$$$$$?!"
+"!?$$$$$$$$$$$$?!"
+"!??????????????!"
+"!!!!!!!!!!!!!!!!"
+"!%##%%%%%%%%##%!"
+"!%##%%%%%%%%##%!"
+"!%%%%%%%%%%%%%%!"
+"!%%%%%%%%%%%%%%!"
+"!%%%%%%%%%%%%%%!"
+"!!!!!!!!!!!!!!!!"
+"  !!!      !!!  "
+"  !!!      !!!  "
+;1234567890123456
 [end]
 
 
@@ -8029,29 +7308,25 @@ SubType=0x07
 String1=0x04,Picnic Shelter
 String2=0x22,Заслон с пейки
 ExtendedLabels=N
-DayXpm="20 19 2 1"   Colormode=16
+DayXpm="15 15 2 1"   Colormode=16
 "!	c #000000"
 "  	c none"
-"        !!!!        "
-"      !!!!!!!!      "
-"     !!!    !!!     "
-"    !!!      !!!    "
-"   !!!        !!!   "
-"  !!!          !!!  "
-" !!!            !!! "
-"!!! !!!!!!!!!!!! !!!"
-"!!  !!!!!!!!!!!!  !!"
-"!     !!!  !!!     !"
-"     !!      !!     "
-"    !!!      !!!    "
-"  !!!!!!!!!!!!!!!!  "
-"  !!!!!!!!!!!!!!!!  "
-"    !!        !!    "
-"    !!        !!    "
-"    !!        !!    "
-"                    "
-"                    "
-;12345678901234567890
+"       !       "
+"      !!!      "
+"     !! !!     "
+"    !!   !!    "
+"   !!     !!   "
+"  !!       !!  "
+" !!         !! "
+"!!           !!"
+"    !!!!!!!    "
+"    !!!!!!!    "
+"     !   !     "
+"     !   !     "
+"     !   !     "
+"     !   !     "
+"               "
+;123456789012345
 [end]
 
 
@@ -8241,40 +7516,6 @@ DayXpm="16 16 2 1"   Colormode=16
 "       !!    !! "
 "!!!!!!!!!!!!!!  "
 "!!!!!!!!!!!!!   "
-;1234567890123456
-[end]
-
-
-[_point]
-Type=0x064
-SubType=0x0e
-;GRMN_TYPE: //
-String1=0x04,Station
-String2=0x22,Спирка
-ExtendedLabels=N
-DayXpm="16 16 6 1"   Colormode=16
-"!	c #000000"
-"#	c #FFFFFF"
-"%	c #0000FF"
-"?	c #FFFF00"
-"$	c #00FFFF"
-"  	c none"
-"  !!!!!!!!!!!!  "
-" !????????????! "
-"!?$$$$$$$$$$$$?!"
-"!?$$$$$$$$$$$$?!"
-"!?$$$$$$$$$$$$?!"
-"!?$$$$$$$$$$$$?!"
-"!??????????????!"
-"!!!!!!!!!!!!!!!!"
-"!%##%%%%%%%%##%!"
-"!%##%%%%%%%%##%!"
-"!%%%%%%%%%%%%%%!"
-"!%%%%%%%%%%%%%%!"
-"!%%%%%%%%%%%%%%!"
-"!!!!!!!!!!!!!!!!"
-"  !!!      !!!  "
-"  !!!      !!!  "
 ;1234567890123456
 [end]
 
@@ -9222,19 +8463,47 @@ DayXpm="16 16 4 1"   Colormode=16
 Type=0x066
 SubType=0x16
 ;GRMN_TYPE: Geographical Named Points of Interest - Land Related/SUMMIT/Summit, top of a hill or mountain/Non NT, NT
-String1=0x02,Bergspitze
+String1=0x22,Връх
 ExtendedLabels=N
-DayXpm="9 6 3 1"   Colormode=16
-"!	c #FFFFFF"
-"#	c #000000"
+DayXpm="14 12 25 2"   Colormode=16
+"!!	c #0000F8"
+"!#	c #F8FCF8"
+"!%	c #000000"
+"!?	c #F8FCC0"
+"!$	c #F8FCA8"
+"!*	c #F8FCE0"
+"!=	c #F8FCB8"
+"!1	c #00D8F8"
+"!2	c #00A0F8"
+"!3	c #0080F8"
+"!4	c #002CF8"
+"!5	c #00FCF8"
+"!6	c #0064F8"
+"!7	c #00E0F8"
+"!8	c #00D0F8"
+"!9	c #00B4F8"
+"#!	c #009CF8"
+"##	c #0060F8"
+"#%	c #0028F8"
+"#?	c #0088F8"
+"#$	c #00A4F8"
+"#*	c #0090F8"
+"#=	c #007CF8"
+"#1	c #004CF8"
 "  	c none"
-"    !    "
-"   !#!   "
-"  !###!  "
-" !#####! "
-"!#######!"
-" !!!!!!! "
-;123456789
+"                  !#        "
+"          !#    !#!%!#      "
+"        !#!%!#!#!%!%!#      "
+"      !#!%!#!%!%!?!$!%!#    "
+"    !#!#!%!*!*!%!=!$!%!#    "
+"    !#!%!#!#!#!#!#!#!#!%!#  "
+"    !#!%!1!1!1!2!3!3!4!%!#  "
+"    !#!%!5!1!1!2!3!6!4!%!#  "
+"  !#!%!1!7!8!9#!!3###%!%!#  "
+"!#!%#?#$#$!2#*#=!6#1!!!!!%!#"
+"!#!%!%!%!%!%!%!%!%!%!%!%!%!#"
+"!#!#!#!#!#!#!#!#!#!#!#!#!#!#"
+;12345678901234
 [end]
 
 
