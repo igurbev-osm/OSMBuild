@@ -9,3 +9,5 @@ srtm2osm.exe -bounds1 41.8370000 19.9900000 43.3010000 21.8520000 -cat 400 100 -
 srtm2osm.exe -bounds1 42.1800000 18.7210000 46.2480000 23.1150000 -cat 400 100 -large -corrxy 0.0005 0.0006 -step 10 -o serbia.srtm10.osm
 srtm2osm.exe -bounds1 42.3500000 13.4690000 46.6340000 19.7200000 -cat 400 100 -large -corrxy 0.0005 0.0006 -step 10 -o croatia.srtm10.osm
 srtm2osm.exe -bounds1 45.3950000 13.3040000 46.9320000 16.6110000 -cat 400 100 -large -corrxy 0.0005 0.0006 -step 10 -o slovenija.srtm10.osm
+::srtm2osm.exe -bounds1 45.3950000 13.3040000 46.9320000 16.6110000 -cat 500 100  -step 10 -o slovenia.srtm10.osm
+srtm2osm.exe -bounds1 36.3150000 6.5480000 47.1900000 18.9180000 -cat 400 100 -large -corrxy 0.0005 0.0006 -step 10 -o italia.srtm10.osm

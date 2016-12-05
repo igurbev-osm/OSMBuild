@@ -1,0 +1,10 @@
+download_url=http://api.openstreetmap.org/api/0.6/map?bbox=23.3528,41.7109,23.4572,41.8141
+download_name=pirin.osm
+srtm_file=pirin.strm.osm
+mapid=15390001
+description=OSM Test igurbev
+family_id=1539
+output_dir=test
+instalation_name=OSM Test
+country-name=Bulgaria
+country-abbr=BG
