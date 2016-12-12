@@ -1,6 +1,6 @@
 download_url=http://download.geofabrik.de/europe/montenegro-latest.osm.pbf
 download_name=montenegro-latest.osm.pbf
-srtm_file=chernagora.srtm10.osm
+srtm_file=montenegro/montenegro-dem_*.osm
 mapid=35490001
 description=OSM Montenegro igurbev
 family_id=3549

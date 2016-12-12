@@ -1,6 +1,6 @@
 download_url=http://download.geofabrik.de/europe/bosnia-herzegovina-latest.osm.pbf
 download_name=bosnia-herzegovina-latest.osm.pbf
-srtm_file=BiH.srtm10.osm
+srtm_file=bih/bih-dem_*.osm
 mapid=45490001
 description=OSM Bosnia And Herzegovina igurbev
 family_id=4549

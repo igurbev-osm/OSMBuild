@@ -1,6 +1,6 @@
 download_url=http://download.geofabrik.de/europe/slovenia-latest.osm.pbf
 download_name=slovenia-latest.osm.pbf
-srtm_file=slovenia/slovenia*.strm.osm
+srtm_file=slovenia/slovenia_*.osm
 mapid=65030001
 description=OSM Slovenia igurbev
 family_id=6503

@@ -1,6 +1,6 @@
 download_url=http://download.geofabrik.de/europe/albania-latest.osm.pbf
 download_name=albania-latest.osm.pbf
-srtm_file=albania.srtm10.osm
+srtm_file=albania/albania-dem.osm
 mapid=95490001
 description=OSM Albania igurbev
 family_id=9549

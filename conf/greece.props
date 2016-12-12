@@ -1,6 +1,6 @@
 download_url=http://download.geofabrik.de/europe/greece-latest.osm.pbf
 download_name=greece-latest.osm.pbf
-srtm_file=greece.srtm10.osm
+srtm_file=greece/greece-dem_*.osm
 mapid=85490001
 description=OSM Greece igurbev
 family_id=8549
