@@ -1,6 +1,6 @@
 download_url=http://api.openstreetmap.org/api/0.6/map?bbox=23.9214,42.592,24.115,42.7798
 download_name=mirkovo.osm
-srtm_file=mirkovo.srtm.osm
+srtm_file=mirkovo.gdem.osm
 mapid=75490001
 description=OSM Mirkovo
 family_id=7549

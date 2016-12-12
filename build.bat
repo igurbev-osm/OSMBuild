@@ -1,6 +1,6 @@
 @echo Started: %date% %time%
 SET base_dir=C:/Users/Ivan/Documents/mkgmap/
-SET srtm_base=E:/Srtm2Osm/
+SET srtm_base=E:/strm/
 SET src_dir=%cd%
 
 for /f "delims=" %%x in (%1) do (set "%%x")
@@ -25,10 +25,10 @@ sed -i "s/{src_dir}/"%src_dir%"/g" next.args
 java -jar ../mkgmap-r3701/mkgmap.jar --family-id=%family_id% %src_dir%\conf\typfile.txt
 if %errorlevel% neq 0 exit /b %errorlevel%
 
-java -XX:MaxHeapSize=1256m -jar ../splitter-r439/splitter.jar --max-nodes=3000000 --max-areas=300 --mapid=%mapid%  --keep-complete=false --description="%description%" --mixed %srtm_base%%srtm_file% ../download/%download_name%
+java -d64 -XX:MaxHeapSize=5000m -jar ../splitter-r439/splitter.jar --max-nodes=7000000 --max-areas=512 --mapid=%mapid%  --keep-complete=false --description="%description%" --mixed %srtm_base%%srtm_file% ../download/%download_name%
 if %errorlevel% neq 0 exit /b %errorlevel%
 
-java -XX:MaxHeapSize=1256m -jar ../mkgmap-r3701/mkgmap.jar --style-file=%src_dir%/styles/mystyle -c next.args -c template.args --gmapsupp %family_id%*.osm.pbf typfile.typ
+java -d64 -XX:MaxHeapSize=5000m -XX:-UseGCOverheadLimit -jar ../mkgmap-r3701/mkgmap.jar --style-file=%src_dir%/styles/mystyle -c next.args -c template.args --gmapsupp %family_id%*.osm.pbf typfile.typ
 if %errorlevel% neq 0 exit /b %errorlevel%
 
 sed -i "s/OSM map/%instalation_name%/g" osmmap.nsi

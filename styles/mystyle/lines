@@ -6,7 +6,6 @@ red:white:red_bar=yes [0x10f08 resolution 23 continue]
 green:white:green_bar=yes [0x10f0e resolution 23 continue]
 yellow:white:yellow_bar=yes [0x10e05 resolution 23 continue]
 red:white:red_circle=yes [0x10f10 resolution 23 continue]
-osmc:symbol=* [0x10f10 resolution 23 continue]
 
 addr:housenumber=* {set mkgmap:execute_finalize_rules=true}
 aeroway=runway [0x27 resolution 20]
@@ -193,14 +192,14 @@ tunnel!=yes & location != underground
 
 # The following boundary styles are after the highway rules because ways
 # are frequently tagged with both and we want the highway to take priority.
-boundary=administrative { name '${mkgmap:boundary_name}' }
-boundary=administrative & admin_level<3 [0x1e resolution 12]
-boundary=administrative & admin_level<5 [0x1d resolution 19]
-boundary=administrative & admin_level<7 [0x1c resolution 21]
-boundary=administrative & admin_level<9 [0x1c resolution 22]
-boundary=administrative [0x1c resolution 22]
+#boundary=administrative { name '${mkgmap:boundary_name}' }
+#boundary=administrative & admin_level<3 [0x1e resolution 12]
+#boundary=administrative & admin_level<5 [0x1d resolution 19]
+#boundary=administrative & admin_level<7 [0x1c resolution 21]
+#boundary=administrative & admin_level<9 [0x1c resolution 22]
+#boundary=administrative [0x1c resolution 22]
 boundary=national [0x1e resolution 17]
-boundary=political [0x1c resolution 19]
+#boundary=political [0x1c resolution 19]
 
 tunnel=yes [0x10e16 resolution 24]
 

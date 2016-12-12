@@ -14,18 +14,14 @@ contour=elevation | contour_ext=elevation
 
 #GlobalMapper export version
 #elevation_major
-closed_contour=Yes & (elevation ~ '\d*000' | elevation ~ '\d*500')
-	{ name '${elevation}'; }
+elevation ~ '\d*000' | elevation ~ '\d*500'
+	{ name '${elevation|conv:m=>ft}'; }
 	[0x22 resolution 20]
 #elevation_medium
-closed_contour=Yes & elevation ~ '\d*00' 
-	{ name '${elevation}'; }
+elevation ~ '\d*00' 
+	{ name '${elevation|conv:m=>ft}'; }
 	[0x21 resolution 21]
-closed_contour=Yes & elevation ~ '\d*0'
-	{ name '${elevation}'; }
+elevation ~ '\d*0'
+	{ name '${elevation|conv:m=>ft}'; }
 	[0x20 resolution 23]
-
-closed_contour=Yes
-	{ name '${elevation}'; }
-	[0x21 resolution 20]
 	
