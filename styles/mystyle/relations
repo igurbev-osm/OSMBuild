@@ -27,7 +27,7 @@ type=route & route=hiking & osmc:symbol=red:white:red_circle {
 
 type=route & route=hiking & osmc:symbol=* {
         apply {                
-                set osmc:symbol='${osmc:symbol}';				
+                set color_mark=yes;				
         }
 }
 
