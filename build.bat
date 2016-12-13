@@ -1,6 +1,7 @@
 @echo Started: %date% %time%
 SET base_dir=C:/Users/Ivan/Documents/mkgmap/
-SET srtm_base=E:/strm/
+::SET srtm_base=E:/strm/
+SET base_dir=C:/Users/Ivan/Documents/mkgmap/
 SET src_dir=%cd%
 
 for /f "delims=" %%x in (%1) do (set "%%x")
