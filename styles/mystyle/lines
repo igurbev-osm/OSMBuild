@@ -192,7 +192,7 @@ tunnel!=yes & location != underground
 
 # The following boundary styles are after the highway rules because ways
 # are frequently tagged with both and we want the highway to take priority.
-#boundary=administrative { name '${mkgmap:boundary_name}' }
+boundary=administrative { name '${mkgmap:boundary_name}' }
 #boundary=administrative & admin_level<3 [0x1e resolution 12]
 #boundary=administrative & admin_level<5 [0x1d resolution 19]
 #boundary=administrative & admin_level<7 [0x1c resolution 21]
