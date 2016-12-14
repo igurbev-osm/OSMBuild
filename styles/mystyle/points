@@ -202,7 +202,7 @@ highway=services & mkgmap:area2poi!=true [0x210f resolution 23 default_name 'Ser
 
 historic=museum [0x2c02 resolution 23]
 historic=archaeological_site | historic=ruins [0x2c02 resolution 23]
-historic=memorial [0x06409 resolution 23]
+historic=memorial | historic=monument [0x06409 resolution 23]
 
 leisure=common & name=* [0x2c06 resolution 23]
 leisure=garden & name=* [0x2c06 resolution 23]
@@ -298,10 +298,14 @@ tourism=theme_park [0x2c01 resolution 22]
 tourism=viewpoint {name '${name} - ${description}' | '${name}'} [0x2c04 resolution 22]
 tourism=wine_cellar [0x2c0a resolution 22]
 tourism=zoo [0x2c07 resolution 22]
+tourism=wild_camp {name 'Wild Camp'} [0x6415 resolution 22]
+ruins=yes {name 'Ruins'} [0x6416 resolution 22]
+amenity=hunting_stand [0x7001 resolution 22]
 
 barrier=bollard | barrier=bus_trap | barrier=gate [0x6406 resolution 22]
 barrier=block | barrier=cycle_barrier | barrier=stile | barrier=kissing_gate [0x6406 resolution 22]
 barrier=lift_gate [0x6406 resolution 22]
+highway=speed_camera [0x3219 resolution 22]
 
 include 'inc/water_points';
 include 'inc/landuse_points';

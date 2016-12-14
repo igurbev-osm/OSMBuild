@@ -1,10 +1,10 @@
 download_url=http://download.geofabrik.de/europe/italy-latest.osm.pbf
 download_name=italy-latest.osm.pbf
-srtm_file=italia.srtm10.osm
+srtm_file=italy/italy-dem_*.osm
 mapid=65040001
 description=OSM Italy igurbev
 family_id=6504
-output_dir=slovenia
+output_dir=italy
 instalation_name=OSM Italy
 country-name=Italy
 country-abbr=I

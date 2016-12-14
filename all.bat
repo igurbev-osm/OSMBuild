@@ -9,4 +9,4 @@ call build.bat conf\kosovo.props
 call build.bat conf\croatia.props
 call build.bat conf\serbia.props
 call build.bat conf\romania.props
-call build.bat conf\italy.props
+::call build.bat conf\italy.props

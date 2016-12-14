@@ -1,33 +1,39 @@
 type=route & route=hiking & osmc:symbol=blue:white:blue_bar {
         apply {                
                 set blue:white:blue_bar=yes;
+				set color_mark=done;
         }
 }
 type=route & route=hiking & osmc:symbol=red:white:red_bar {
         apply {                
                 set red:white:red_bar=yes;
+				set color_mark=done;
         }
 }
 type=route & route=hiking & osmc:symbol=green:white:green_bar {
         apply {                
                 set green:white:green_bar=yes;
+				set color_mark=done;
         }
 }
 type=route & route=hiking & osmc:symbol=yellow:white:yellow_bar {
         apply {                
                 set yellow:white:yellow_bar=yes;				
+				set color_mark=done;
         }
 }
 
 type=route & route=hiking & osmc:symbol=red:white:red_circle {
         apply {                
                 set red:white:red_circle=yes;				
+				set color_mark=done;
         }
 }
 
+#if mark color is not handled - setting default mark
 type=route & route=hiking & osmc:symbol=* {
         apply {                
-                set color_mark=yes;				
+                add color_mark=yes;				
         }
 }
 
