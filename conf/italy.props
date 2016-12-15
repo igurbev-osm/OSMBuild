@@ -9,3 +9,4 @@ instalation_name=OSM Italy
 country-name=Italy
 country-abbr=I
 upload-img=f
+max_split_nodes=5500000

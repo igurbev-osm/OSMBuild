@@ -9,3 +9,4 @@ instalation_name=OSM Croatia
 country-name=Croatia
 country-abbr=HR
 upload-img=f
+max_split_nodes=7000000

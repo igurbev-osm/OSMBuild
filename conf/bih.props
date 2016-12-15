@@ -9,3 +9,4 @@ instalation_name=OSM BiH
 country-name=Bosnia And Herzegovina
 country-abbr=BA
 upload-img=f
+max_split_nodes=7000000

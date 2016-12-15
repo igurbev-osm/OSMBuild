@@ -10,3 +10,4 @@ instalation_name=OSM Bulgaria
 country-name=Bulgaria
 country-abbr=BG
 upload-img=t
+max_split_nodes=7000000

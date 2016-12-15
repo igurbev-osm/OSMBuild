@@ -9,3 +9,4 @@ instalation_name=OSM Kosovo
 country-name=Kosovo
 country-abbr=KS
 upload-img=f
+max_split_nodes=7000000

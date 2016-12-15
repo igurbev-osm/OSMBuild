@@ -9,3 +9,4 @@ instalation_name=OSM Slovenia
 country-name=Slovenia
 country-abbr=SI
 upload-img=f
+max_split_nodes=7000000

@@ -9,3 +9,4 @@ instalation_name=OSM Serbia
 country-name=Serbia
 country-abbr=RS
 upload-img=f
+max_split_nodes=7000000

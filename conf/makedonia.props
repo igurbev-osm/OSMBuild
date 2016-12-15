@@ -9,3 +9,4 @@ instalation_name=OSM Macedonia
 country-name=Macadonia
 country-abbr=MK
 upload-img=f
+max_split_nodes=7000000

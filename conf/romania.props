@@ -9,3 +9,4 @@ instalation_name=OSM Romania
 country-name=Romania
 country-abbr=RO
 upload-img=f
+max_split_nodes=7000000

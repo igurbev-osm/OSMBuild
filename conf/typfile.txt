@@ -1,7 +1,7 @@
 ﻿; typfile.typ
-; Longueur: 33315 octets
-; Fichier TYP compilé     13-12-2016     14:48:37
-; Décompilé le 14-Dec-16 à 14:42:49
+; Longueur: 33971 octets
+; Fichier TYP compilé     15-12-2016     12:19:52
+; Décompilé le 15-Dec-16 à 13:30:19
 
 [_id]
 ProductCode=1
@@ -1645,6 +1645,22 @@ Xpm="32 1 2  1"
 ;12345678901234567890123456789012
 String1=0x04,Intermittent
 String2=0x22,Пресъхващ поток
+ExtendedLabels=N
+[end]
+
+
+[_line]
+Type=0x2d
+;GRMN_TYPE: Misc. Line Types/CLIMBING_PATH/Climbing path/Non NT, NT
+UseOrientation=Y
+Xpm="32 3 2  1"
+"! c #7B0000"
+"# c #FFFFFF"
+"!#####!#####!#####!#####!#######"
+"!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+"#!#####!#####!#####!#####!######"
+;12345678901234567890123456789012
+String1=0x22,Виа Ферата
 ExtendedLabels=N
 [end]
 

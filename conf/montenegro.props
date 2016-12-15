@@ -9,3 +9,4 @@ instalation_name=OSM Montenegro
 country-name=Montenegro
 country-abbr=MNE
 upload-img=f
+max_split_nodes=7000000
