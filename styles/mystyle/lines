@@ -204,6 +204,7 @@ boundary=national [0x1e resolution 17]
 #boundary=political [0x1c resolution 19]
 
 tunnel=yes [0x10e16 resolution 24]
+aerialway=gondola | aerialway=chair_lift [0x28 resolution 22]
 
 include 'inc/water_lines';
 include 'inc/contour_lines';
