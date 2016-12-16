@@ -1,11 +1,11 @@
 ﻿; typfile.typ
-; Longueur: 33971 octets
-; Fichier TYP compilé     15-12-2016     12:19:52
-; Décompilé le 15-Dec-16 à 13:30:19
+; Longueur: 34030 octets
+; Fichier TYP compilé     15-12-2016     17:42:35
+; Décompilé le 16-Dec-16 à 17:00:15
 
 [_id]
 ProductCode=1
-FID=6549
+FID=6504
 CodePage=65001
  [End]
 
@@ -1529,13 +1529,19 @@ ExtendedLabels=N
 Type=0x16
 ;GRMN_TYPE: Roads/TRAIL/Walkway or trail/Non NT, NT
 UseOrientation=Y
-LineWidth=1
-BorderWidth=1
-Xpm="0 0 2 0"
-"1 c #E6E6E6"
-"2 c #000000"
+Xpm="32 7 2  1"
+"! c #390041"
+"  c none"
+"           !   !   !            "
+"           !   !   !            "
+"        !!!!!!!!!!!!!!!         "
+"!!!!!      !   !   !      !!!!!!"
+"        !!!!!!!!!!!!!!!         "
+"           !   !   !            "
+"           !   !   !            "
+;12345678901234567890123456789012
 String1=0x04,Path
-String2=0x22,Пътека
+String2=0x22,Виа Ферата
 ExtendedLabels=N
 [end]
 
@@ -1645,22 +1651,6 @@ Xpm="32 1 2  1"
 ;12345678901234567890123456789012
 String1=0x04,Intermittent
 String2=0x22,Пресъхващ поток
-ExtendedLabels=N
-[end]
-
-
-[_line]
-Type=0x2d
-;GRMN_TYPE: Misc. Line Types/CLIMBING_PATH/Climbing path/Non NT, NT
-UseOrientation=Y
-Xpm="32 3 2  1"
-"! c #7B0000"
-"# c #FFFFFF"
-"!#####!#####!#####!#####!#######"
-"!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
-"#!#####!#####!#####!#####!######"
-;12345678901234567890123456789012
-String1=0x22,Виа Ферата
 ExtendedLabels=N
 [end]
 

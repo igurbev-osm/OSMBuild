@@ -164,7 +164,7 @@ highway=service [0x09 road_class=0 road_speed=2 resolution 22]
 highway=cycleway [0x07 road_class=0 road_speed=1 resolution 23]
 
 highway=footway|highway=path|highway=steps [0x11 road_class=0 road_speed=0 resolution 23]
-highway=via_ferrata [0x2d road_class=0 road_speed=0 resolution 23]
+highway=via_ferrata [0x16 road_class=0 road_speed=0 resolution 23]
 
 highway=track & tracktype=grade1 [0x0b road_class=0 road_speed=1 resolution 22]
 highway=track & tracktype=grade2 [0x0c road_class=0 road_speed=1 resolution 22]

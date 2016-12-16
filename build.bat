@@ -59,6 +59,9 @@ IF "%upload-img%" == "t" (
 	call sendFtp "%img_name%.img"
 )
 
+call backupFtp "%instalation_name%.exe"
+call backupFtp "%img_name%.img"
+
 cd %src_dir%
 
 @echo End: %date% %time%
