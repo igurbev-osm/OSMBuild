@@ -179,7 +179,7 @@ highway=track & tracktype=grade4 [0x10 road_class=0 road_speed=1 resolution 22]
 highway=track & tracktype=grade5 [0x0f road_class=0 road_speed=1 resolution 22]
 highway=track [0x0f road_class=0 road_speed=1 resolution 22]
 
-highway=unsurfaced [0x0a road_class=0 road_speed=1 resolution 22]
+highway=unsurfaced [0x0f road_class=0 road_speed=1 resolution 22]
 highway=road { add mkgmap:dead-end-check = false} [0x06 road_class=0 road_speed=1 resolution 22]
 
 # Mop up any unrecognised highway types
@@ -211,6 +211,7 @@ boundary=national [0x1e resolution 17]
 
 tunnel=yes [0x10e16 resolution 24]
 aerialway=gondola | aerialway=chair_lift [0x08 resolution 22]
+barrier=fence [0x0a resolution 22]
 
 include 'inc/water_lines';
 include 'inc/contour_lines';
