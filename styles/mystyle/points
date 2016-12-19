@@ -172,6 +172,7 @@ amenity=restaurant & cuisine=thai [0x2a00 resolution 23]
 amenity=restaurant & cuisine=* [0x2a00 resolution 23]
 amenity=restaurant [0x2a00 resolution 23]
 amenity=school [0x2c05 resolution 23]
+aerialway=station [0x115 resolution 22]
 # amenity=shelter is ambiguous; when possible, consider using other tags:
 #  tourism=lean_to or tourism=picnic_site
 #  shelter=yes on highway=bus_stop or highway=tram_stop or railway=halt

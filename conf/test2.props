@@ -8,3 +8,4 @@ output_dir=test
 instalation_name=OSM Test
 country-name=Bulgaria
 country-abbr=BG
+max_split_nodes=7000000
