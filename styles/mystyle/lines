@@ -124,6 +124,12 @@ highway=* & construction=* & maxspeed!=* { add mkgmap:road-speed = '-1' }
 # Lower the road speed of disused ways.
 highway=* & disused=yes & maxspeed!=* { add mkgmap:road-speed = '-2' }
 
+#bridges
+highway=motorway & bridge=* [0x10e12 resolution 15 continue]
+highway=primary & bridge=* [0x10e13 resolution 19 continue]
+highway=secondary & bridge=* [0x10e13 resolution 20 continue]
+highway=tertiary & bridge=* [0x10e13 resolution 20 continue]
+
 # Ways sorted roughly by descending order of class
 highway=motorway & network=e-road [0x01 resolution 14-14 continue]
 highway=motorway  [0x01 road_class=4 road_speed=7 resolution 15]
@@ -149,11 +155,11 @@ highway=unclassified [0x06 road_class=0 road_speed=3 resolution 21]
 
 # Some countries allow, others disallow bicycling on pedestrian streets.
 # To allow bicycling, add 'add bicycle=yes'
-highway=pedestrian & area!=yes [0x16 road_class=0 road_speed=0 resolution 22]
+highway=pedestrian & area!=yes [0x12 road_class=0 road_speed=0 resolution 22]
 highway=living_street [0x06 road_class=0 road_speed=1 resolution 22]
 highway=residential [0x06 road_class=0 road_speed=2 resolution 22]
 highway=bridleway [0x07 road_class=0 road_speed=0 resolution 23]
-highway=byway [0x16 road_class=0 road_speed=0 resolution 23]
+highway=byway [0x0f road_class=0 road_speed=0 resolution 22]
 
 highway=service & service=parking_aisle
 [0x09 road_class=0 road_speed=1 resolution 24]
@@ -183,7 +189,7 @@ natural=coastline [0x15 resolution 12]
 power=line [0x29 resolution 21]
 
 railway=abandoned [0x0a road_class=0 road_speed=1 resolution 22]
-railway=platform [0x16 road_class=0 road_speed=0 resolution 23]
+railway=platform [0x12 road_class=0 road_speed=0 resolution 22]
 # Railway lines, note that many devices display type 0x14 only at resolution 24 
 (railway=rail | railway=tram | railway=disused | railway=subway | railway=narrow_gauge | railway=light_rail | railway=preserved) & !(tunnel=yes) [0x14 resolution 20]
 
@@ -204,7 +210,7 @@ boundary=national [0x1e resolution 17]
 #boundary=political [0x1c resolution 19]
 
 tunnel=yes [0x10e16 resolution 24]
-aerialway=gondola | aerialway=chair_lift [0x28 resolution 22]
+aerialway=gondola | aerialway=chair_lift [0x2f resolution 22]
 
 include 'inc/water_lines';
 include 'inc/contour_lines';

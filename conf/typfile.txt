@@ -1,8 +1,11 @@
-﻿
+﻿; typfile.typ
+; Longueur: 34011 octets
+; Fichier TYP compilé     19-12-2016     12:45:23
+; Décompilé le 19-Dec-16 à 17:53:10
 
 [_id]
 ProductCode=1
-FID=6504
+FID=6549
 CodePage=65001
  [End]
 
@@ -1300,15 +1303,20 @@ ExtendedLabels=N
 Type=0x07
 ;GRMN_TYPE: Roads/ALLEY, DRIVEWAY/Alleyway, private driveway to residence/Non NT, NT
 UseOrientation=N
-Xpm="32 3 2  1"
-"! c #000000"
-"# c #BDCAB4"
-"!###!###!###!###!###!###!###!###"
-"#!#!#!#!#!#!#!#!#!#!#!#!#!#!#!#!"
-"##!###!###!###!###!###!###!###!#"
+Xpm="32 8 2  1"
+"! c #00008B"
+"  c none"
+"                 !!             "
+"                !!!             "
+"               !!  !            "
+"!!!!!!!!!!!   !!!!!!!  !!!!!!!!!"
+"              !!!!!             "
+"             !  !! !            "
+"            ! ! ! ! !           "
+"             !     !            "
 ;12345678901234567890123456789012
 String1=0x04,Marked Path
-String2=0x22,Маркирана пътека
+String2=0x22,Колоездачно трасе
 ExtendedLabels=N
 [end]
 
@@ -1475,11 +1483,11 @@ Type=0x12
 ;GRMN_TYPE: Customizable Line Types/CUSTOMIZABLE_ROUTE_LINE_6/Routable customizable line/Non NT, NT
 UseOrientation=Y
 Xpm="32 3 2  1"
-"! c #FF0000"
-"  c none"
-"!!  !!  !!  !!  !!  !!  !!  !!  "
-"!!  !!  !!  !!  !!  !!  !!  !!  "
-"!!  !!  !!  !!  !!  !!  !!  !!  "
+"! c #000000"
+"# c #BDCAB4"
+"!###!###!###!###!###!###!###!###"
+"#!#!#!#!#!#!#!#!#!#!#!#!#!#!#!#!"
+"##!###!###!###!###!###!###!###!#"
 ;12345678901234567890123456789012
 String1=0x04,Treppe
 ExtendedLabels=N
@@ -1490,17 +1498,13 @@ ExtendedLabels=N
 Type=0x13
 ;GRMN_TYPE: Customizable Line Types/CUSTOMIZABLE_ROUTE_LINE_7/Routable customizable line/Non NT, NT
 UseOrientation=Y
-Xpm="32 5 2  1"
-"! c #FF0000"
-"# c #00FF00"
-"###!!!!!###!!!!!###!!!!!###!!!!!"
-"###!!!!!###!!!!!###!!!!!###!!!!!"
-"!!!#####!!!#####!!!#####!!!#####"
+Xpm="32 2 2  1"
+"! c #202020"
+"# c #FFFFFF"
 "###!!!!!###!!!!!###!!!!!###!!!!!"
 "###!!!!!###!!!!!###!!!!!###!!!!!"
 ;12345678901234567890123456789012
-String1=0x02,UNBEKANNT
-String2=0x04,Unbefestigt
+String1=0x22,Път в ремонт
 ExtendedLabels=N
 [end]
 
@@ -1648,30 +1652,6 @@ Xpm="32 1 2  1"
 ;12345678901234567890123456789012
 String1=0x04,Intermittent
 String2=0x22,Пресъхващ поток
-ExtendedLabels=N
-[end]
-
-
-[_line]
-Type=0x28
-;GRMN_TYPE: Misc. Line Types/PIPELINE/Oil or water pipeline/Non NT
-UseOrientation=Y
-Xpm="32 11 2  1"
-"! c #000000"
-"  c none"
-"                      !!!!!     "
-"                     !     !    "
-"                     !     !    "
-"                      !!!!!     "
-"                        !       "
-" ! !  !!!!!  ! ! ! !  !!!!!  ! !"
-"        !                       "
-"      !!!!!                     "
-"     !     !                    "
-"     !     !                    "
-"      !!!!!                     "
-;12345678901234567890123456789012
-String1=0x22,Лифт
 ExtendedLabels=N
 [end]
 
