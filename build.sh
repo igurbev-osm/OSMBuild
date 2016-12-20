@@ -1,6 +1,6 @@
 #/bin/sh
 base_dir=~/mkgmap
-srtm_base=$base_dir/dem
+srtm_base=$base_dir/dem/
 src_dir=`pwd`
 
 while IFS='=' read -r key value
@@ -34,9 +34,12 @@ sed -i "s/OSM map/$instalation_name/g" osmmap.nsi
 sed -i "s/xtypfile.typ/typfile.typ/g" osmmap.nsi
 makensis osmmap.nsi
 
-mv "%instalation_name%.exe" "..\ready\%instalation_name%.exe"
+mv "$instalation_name.exe" "../ready/$instalation_name.exe"
 
+mv gmapsupp.img ../ready/"${instalation_name//[[:space:]]}".img
 
+cp "../ready/$instalation_name.exe"  ~/maps/
+cp ../ready/"${instalation_name//[[:space:]]}".img ~/maps/
 
-
-
+cd ../ready
+./sendFtp.sh "$instalation_name".exe 
