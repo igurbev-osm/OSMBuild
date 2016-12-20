@@ -299,7 +299,7 @@ tourism=theme_park [0x2c01 resolution 22]
 tourism=viewpoint {name '${name} - ${description}' | '${name}'} [0x2c04 resolution 22]
 tourism=wine_cellar [0x2c0a resolution 22]
 tourism=zoo [0x2c07 resolution 22]
-tourism=wild_camp {name 'Wild Camp'} [0x6415 resolution 22]
+tourism=wild_camp | tourism=wild_camping {name 'Wild Camp'} [0x6415 resolution 22]
 ruins=yes {name 'Ruins'} [0x6416 resolution 22]
 amenity=hunting_stand [0x7001 resolution 22]
 
