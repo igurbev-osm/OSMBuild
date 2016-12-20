@@ -2,8 +2,8 @@ family-id:{family_id}
 product-id:{family_id}
 mapname=osmmap
 description: {instalation_name} igurbev
-country-name: {country-name}
-country-abbr: {country-abbr}
+country-name: {country_name}
+country-abbr: {country_abbr}
 series-name: {instalation_name} igurbev
 ignore-osm-bounds
 tdbfile
