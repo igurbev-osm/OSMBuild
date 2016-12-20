@@ -26,4 +26,17 @@ sed -i "s/{src_dir}/$src_dir/g" next.args
 
 java -jar ../mkgmap-r3701/mkgmap.jar --family-id=$family_id $src_dir/conf/typfile.txt
 
+java -d64 -XX:MaxHeapSize=7000m -jar ../splitter-r439/splitter.jar --max-nodes=$max_split_nodes --max-areas=512 --mapid=$mapid  --keep-complete=false --description="$description" --mixed $srtm_base$srtm_file ../download/$download_name
+
+java -d64 -XX:MaxHeapSize=7000m -XX:-UseGCOverheadLimit -jar ../mkgmap-r3701/mkgmap.jar --style-file=$src_dir/styles/mystyle -c next.args -c template.args --gmapsupp $family_id*.osm.pbf typfile.typ
+
+sed -i "s/OSM map/$instalation_name/g" osmmap.nsi
+sed -i "s/xtypfile.typ/typfile.typ/g" osmmap.nsi
+makensis osmmap.nsi
+
+mv "%instalation_name%.exe" "..\ready\%instalation_name%.exe"
+
+
+
+
 
