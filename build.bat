@@ -19,8 +19,8 @@ cd %output_dir%
 copy %src_dir%\conf\next.args .
 sed -i "s/{family_id}/%family_id%/g" next.args
 sed -i "s/{instalation_name}/%instalation_name%/g" next.args
-sed -i "s/{country-name}/%country-name%/g" next.args
-sed -i "s/{country-abbr}/%country-abbr%/g" next.args
+sed -i "s/{country-name}/%country_name%/g" next.args
+sed -i "s/{country-abbr}/%country_abbr%/g" next.args
 sed -i "s/{src_dir}/"%src_dir%"/g" next.args
 
 java -jar ../mkgmap-r3701/mkgmap.jar --family-id=%family_id% %src_dir%\conf\typfile.txt
@@ -55,7 +55,7 @@ rd /S /Q %output_dir%
 cd ready
 call sendFtp "%instalation_name%.exe"
 
-IF "%upload-img%" == "t" (
+IF "%upload_img%" == "t" (
 	call sendFtp "%img_name%.img"
 )
 
