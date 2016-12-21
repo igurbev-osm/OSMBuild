@@ -39,11 +39,13 @@ echo "Ready, backup first ..."
 img_name=${instalation_name//[[:space:]]}
 [ -f "../ready/$instalation_name.exe" ] && mv "../ready/$instalation_name.exe" "../backup/$instalation_name.exe" 
 [ -f "../ready/$img_name.img" ] && mv "../ready/$img_name.img" "../backup/$img_name.img" 
+[ -f "../ready/$img_name.tdb" ] && mv "../ready/$img_name.tdb" "../backup/$img_name.tdb" 
 
 echo "Move the result ..."
 
 mv "$instalation_name.exe" "../ready/$instalation_name.exe"
 mv gmapsupp.img ../ready/$img_name.img
+mv osmmap.tdb ../ready/$img_name.tdb
 
 echo "Copy to server ..."
 
