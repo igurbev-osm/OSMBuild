@@ -34,13 +34,17 @@ sed -i "s/OSM map/$instalation_name/g" osmmap.nsi
 sed -i "s/xtypfile.typ/typfile.typ/g" osmmap.nsi
 makensis osmmap.nsi
 
-mv "$instalation_name.exe" "../ready/$instalation_name.exe"
-
 img_name=${instalation_name//[[:space:]]}
+[ -f "../ready/$instalation_name.exe" ] && mv "../ready/$instalation_name.exe" "../backup/$instalation_name.exe" || echo "exe file not found"
+[ -f "../ready/$img_name.img" ] && mv "../ready/$img_name.img" "../backup/$img_name.img" || echo "img file not found"
+
+mv "$instalation_name.exe" "../ready/$instalation_name.exe"
 mv gmapsupp.img ../ready/$img_name.img
 
 cp "../ready/$instalation_name.exe"  ~/maps/
-cp ../ready/"${instalation_name//[[:space:]]}".img ~/maps/
+cp ../ready/$img_name.img ~/maps/
 
 cd ../ready
 ./sendFtp.sh "$instalation_name".exe 
+[ $upload_img == 't' ] && ./sendFtp.sh "$img_name".img
+
