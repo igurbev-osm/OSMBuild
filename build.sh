@@ -34,17 +34,27 @@ sed -i "s/OSM map/$instalation_name/g" osmmap.nsi
 sed -i "s/xtypfile.typ/typfile.typ/g" osmmap.nsi
 makensis osmmap.nsi
 
+echo "Ready, backup first ..."
+
 img_name=${instalation_name//[[:space:]]}
-[ -f "../ready/$instalation_name.exe" ] && mv "../ready/$instalation_name.exe" "../backup/$instalation_name.exe" || echo "exe file not found"
-[ -f "../ready/$img_name.img" ] && mv "../ready/$img_name.img" "../backup/$img_name.img" || echo "img file not found"
+[ -f "../ready/$instalation_name.exe" ] && mv "../ready/$instalation_name.exe" "../backup/$instalation_name.exe" 
+[ -f "../ready/$img_name.img" ] && mv "../ready/$img_name.img" "../backup/$img_name.img" 
+
+echo "Move the result ..."
 
 mv "$instalation_name.exe" "../ready/$instalation_name.exe"
 mv gmapsupp.img ../ready/$img_name.img
+
+echo "Copy to server ..."
 
 cp "../ready/$instalation_name.exe"  ~/maps/
 cp ../ready/$img_name.img ~/maps/
 
 cd ../ready
+
+echo "Send ftp ..."
+
 ./sendFtp.sh "$instalation_name".exe 
 [ $upload_img == 't' ] && ./sendFtp.sh "$img_name".img
 
+echo "End"
