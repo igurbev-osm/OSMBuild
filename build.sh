@@ -51,6 +51,7 @@ echo "Copy to server ..."
 
 cp "../ready/$instalation_name.exe"  ~/maps/
 cp ../ready/$img_name.img ~/maps/
+cp ../ready/$img_name.tdb ~/maps/
 
 cd ../ready
 
