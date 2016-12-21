@@ -8,6 +8,12 @@ Desktop.ini
 # Recycle Bin used on file shares
 $RECYCLE.BIN/
 
+#emacs backups
+*~
+
+#logs
+nohup.out
+
 # Windows Installer files
 *.cab
 *.msi
