@@ -36,7 +36,8 @@ makensis osmmap.nsi
 
 mv "$instalation_name.exe" "../ready/$instalation_name.exe"
 
-mv gmapsupp.img ../ready/"${instalation_name//[[:space:]]}".img
+img_name=${instalation_name//[[:space:]]}
+mv gmapsupp.img ../ready/$img_name.img
 
 cp "../ready/$instalation_name.exe"  ~/maps/
 cp ../ready/"${instalation_name//[[:space:]]}".img ~/maps/
